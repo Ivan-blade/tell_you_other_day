@@ -1,13 +1,13 @@
 <template>
 <!-- nav标签内没有特殊效果，该标签只是表示包含内容是导航标签，一般内容为列表 -->
   <nav>
-      <v-app-bar text>
-          <v-app-bar-nav-icon @click="navShow = !navShow" class="grey--text"></v-app-bar-nav-icon>
-          <v-toolbar-title class="text-uppercase grey--text">
+      <v-app-bar text class="blue lighten-1">
+          <v-app-bar-nav-icon @click="navShow = !navShow" class="white--text"></v-app-bar-nav-icon>
+          <v-toolbar-title class="text-uppercase white--text">
               <span class="font-weight-light">Ivan-blade</span>
           </v-toolbar-title>
           <v-spacer></v-spacer>
-          <v-btn text>
+          <v-btn text class="white--text">
               <span>sign out</span>
               <v-icon right>exit_to_app</v-icon>
           </v-btn>
@@ -40,9 +40,11 @@
       return {
         navShow: false,
         links: [
-            { icon: 'dashboard', text: 'Dashboard', route: '/' },
-            { icon: 'folder', text: 'My Projects', route: '/projects' },
-            { icon: 'person', text: 'Team', route: '/team' },
+            { icon: 'dashboard', text: 'Personal Info', route: '/personalInfo' },
+            { icon: 'folder', text: 'Diarys', route: '/' },
+            { icon: 'person', text: 'Messages', route: '/messages' },
+            { icon: 'dashboard', text: 'Settings', route: '/settings' },
+            { icon: 'folder', text: 'About', route: '/about' }
         ]
       }
     }

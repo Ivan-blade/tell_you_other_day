@@ -4,13 +4,16 @@
     max-width="344"
     outlined
   >
-    the field of diary
+    the field of Messages
   </v-card>
 </template>
 
 <script>
-
-export default {
-  name: 'Home'
-}
+  export default {
+    name: 'Messages'
+  }
 </script>
+
+<style>
+
+</style>

@@ -61,3 +61,9 @@
         + v-list-item（单个内容）
             + v-list-item-icon（单个内容图标）
             + v-list-item-title(单个内容标题)
+
++ v-card
+    + v-card-title（标题？？？怎么居中）
+    + v-card-subtitle（子标题，话说默认样式好像和正文没什么区别？？？）
+    + v-card-text（正文）
+    + v-card-actions（触发事件）

@@ -1,6 +1,5 @@
 <template>
-  <!-- 在v-app上设置全局背景色 -->
-  <v-app class="blue lighten-4">
+  <v-app>
     <Navbar />
     <v-content>
       <router-view></router-view>
