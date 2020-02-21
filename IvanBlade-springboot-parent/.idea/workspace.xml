@@ -1,0 +1,1524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44bb8364-9368-47e8-aabf-d031097381be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/src/async.hljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/src/file.lang.hljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/src/gen.hljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js-async-webpack/src/lang.hljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/api.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/building-testing.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/css-classes-reference.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/index.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/language-contribution.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/language-guide.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/language-requests.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/line-numbers.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/maintainers-guide.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/reference.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/docs/style-guide.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/abnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/accesslog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/actionscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ada.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/angelscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/apache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/applescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/arcade.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/arduino.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/armasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/asciidoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/aspectj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/autohotkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/autoit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/avrasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/awk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/axapta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/bash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/bnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/brainfuck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/cal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/capnproto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ceylon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/clean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/clojure-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/clojure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/cmake.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/coffeescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/coq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/cos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/cpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/crmsh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/crystal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/csp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/delphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/django.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dockerfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dsconfig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/dust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ebnf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/elixir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/elm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/erb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/erlang-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/erlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/excel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/fix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/flix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/fortran.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/fsharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gams.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gauss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gcode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gherkin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/glsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/go.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/golo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/gradle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/groovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/haml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/handlebars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/haskell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/haxe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/hsp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/htmlbars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/hy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/inform7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ini.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/irpf90.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/isbl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/java.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/javascript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/jboss-cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/julia-repl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/julia.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/kotlin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/lasso.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ldif.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/leaf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/less.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/lisp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/livecodeserver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/livescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/llvm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/lsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/lua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/makefile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mathematica.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/matlab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/maxima.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mercury.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mipsasm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mizar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/mojolicious.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/monkey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/moonscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/n1ql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/nginx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/nimrod.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/nix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/nsis.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/objectivec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ocaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/openscad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/oxygene.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/parser3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/perl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/pf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/pgsql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/php.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/plaintext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/pony.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/powershell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/processing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/prolog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/protobuf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/puppet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/purebasic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/python.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/qml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/r.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/reasonml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/rib.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/roboconf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/routeros.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/rsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/ruleslanguage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/rust.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/sas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/scala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/scheme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/scilab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/scss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/shell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/smali.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/smalltalk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/sml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/sqf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/sql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/stan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/stata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/step21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/stylus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/subunit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/swift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/taggerscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/tap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/tcl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/thrift.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/tp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/twig.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vbnet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vbscript-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vbscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/verilog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vhdl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/vim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/x86asm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/xl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/xml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/xquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/yaml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/lib/languages/zephir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/a11y-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/a11y-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/agate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/an-old-hope.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/androidstudio.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/arduino-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/arta.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/ascetic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-cave-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-cave-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-dune-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-dune-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-estuary-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-estuary-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-forest-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-forest-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-heath-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-heath-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-lakeside-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-lakeside-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-plateau-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-plateau-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-savanna-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-savanna-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-seaside-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-seaside-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-sulphurpool-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atelier-sulphurpool-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atom-one-dark-reasonable.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atom-one-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/atom-one-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/brown-paper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/brown-papersq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/codepen-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/color-brewer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/darcula.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/darkula.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/docco.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/dracula.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/far.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/foundation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/github-gist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/github.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/gml.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/googlecode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/gradient-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/grayscale.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/gruvbox-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/gruvbox-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/hopscotch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/hybrid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/idea.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/ir-black.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/isbl-editor-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/isbl-editor-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/kimbie.dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/kimbie.light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/lightfair.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/magula.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/mono-blue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/monokai-sublime.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/monokai.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/night-owl.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/nord.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/obsidian.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/ocean.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/paraiso-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/paraiso-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/pojoaque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/pojoaque.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/purebasic.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/qtcreator_dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/qtcreator_light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/railscasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/rainbow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/routeros.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/school-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/school-book.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/shades-of-purple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/solarized-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/solarized-light.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/sunburst.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/tomorrow-night-blue.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/tomorrow-night-bright.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/tomorrow-night-eighties.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/tomorrow-night.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/tomorrow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/vs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/vs2015.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/xcode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/xt256.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/scss/zenburn.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/a11y-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/a11y-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/agate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/an-old-hope.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/androidstudio.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/arduino-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/arta.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/ascetic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-cave-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-cave-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-dune-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-dune-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-estuary-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-estuary-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-forest-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-forest-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-heath-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-heath-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-lakeside-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-lakeside-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-plateau-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-plateau-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-savanna-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-savanna-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-seaside-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-seaside-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-sulphurpool-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atelier-sulphurpool-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atom-one-dark-reasonable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atom-one-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/atom-one-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/brown-paper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/brown-papersq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/codepen-embed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/color-brewer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/darcula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/darkula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/docco.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/dracula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/far.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/foundation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/github-gist.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/github.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/gml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/googlecode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/gradient-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/grayscale.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/gruvbox-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/gruvbox-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/hopscotch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/hybrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/idea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/ir-black.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/isbl-editor-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/isbl-editor-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/kimbie.dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/kimbie.light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/lightfair.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/magula.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/mono-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/monokai-sublime.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/monokai.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/night-owl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/nord.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/obsidian.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/ocean.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/paraiso-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/paraiso-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/pojoaque.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/pojoaque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/purebasic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/qtcreator_dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/qtcreator_light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/railscasts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/rainbow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/routeros.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/school-book.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/school-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/shades-of-purple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/solarized-dark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/solarized-light.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/sunburst.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/tomorrow-night-blue.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/tomorrow-night-bright.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/tomorrow-night-eighties.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/tomorrow-night.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/tomorrow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/vs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/vs2015.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/xcode.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/xt256.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/highlight.js/styles/zenburn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/LOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/README-EN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/css/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/font/fontello.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/1c.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/abnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/accesslog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/actionscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ada.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/apache.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/applescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/arduino.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/armasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/asciidoc.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/aspectj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/autohotkey.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/autoit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/avrasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/awk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/axapta.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/bash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/basic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/bnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/brainfuck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/cal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/capnproto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ceylon.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/clean.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/clojure-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/clojure.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/cmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/coffeescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/coq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/cos.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/cpp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/crmsh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/crystal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/csp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/css.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/d.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/delphi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/diff.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/django.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dns.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dockerfile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dos.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dsconfig.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/dust.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ebnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/elixir.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/elm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/erb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/erlang-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/erlang.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/excel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/fix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/flix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/fortran.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/fsharp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/gams.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/gauss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/gcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/gherkin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/glsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/go.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/golo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/gradle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/groovy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/haml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/haskell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/haxe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/hsp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/htmlbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/http.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/hy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/inform7.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ini.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/irpf90.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/java.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/javascript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/jboss-cli.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/json.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/julia-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/julia.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/kotlin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/lasso.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ldif.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/leaf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/lisp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/livecodeserver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/livescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/llvm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/lsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/lua.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/makefile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mathematica.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/matlab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/maxima.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mercury.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mipsasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mizar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/mojolicious.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/monkey.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/moonscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/n1ql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/nginx.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/nimrod.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/nix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/nsis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/objectivec.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ocaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/openscad.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/oxygene.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/parser3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/perl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/pf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/php.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/pony.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/powershell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/processing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/profile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/prolog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/protobuf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/puppet.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/purebasic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/python.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/q.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/qml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/r.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/rib.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/roboconf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/routeros.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/rsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ruby.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/ruleslanguage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/rust.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/scala.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/scheme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/scilab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/scss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/shell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/smali.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/smalltalk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/sml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/sqf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/sql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/stan.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/stata.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/step21.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/stylus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/subunit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/swift.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/taggerscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/tap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/tcl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/tex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/thrift.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/tp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/twig.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/typescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vala.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vbnet.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vbscript-html.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vbscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/verilog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vhdl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/vim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/x86asm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/xl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/xml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/xquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/yaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/languages/zephir.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/agate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/androidstudio.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/arduino-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/arta.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/ascetic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-cave-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-cave-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-dune-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-dune-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-estuary-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-estuary-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-forest-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-forest-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-heath-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-heath-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-lakeside-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-lakeside-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-plateau-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-plateau-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-savanna-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-savanna-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-seaside-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-seaside-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-sulphurpool-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atelier-sulphurpool-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atom-one-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/atom-one-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/brown-paper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/brown-papersq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/codepen-embed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/color-brewer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/darcula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/darkula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/docco.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/dracula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/far.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/github-gist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/github.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/googlecode.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/grayscale.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/gruvbox-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/gruvbox-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/hopscotch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/hybrid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/idea.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/ir-black.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/kimbie.dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/kimbie.light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/magula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/mono-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/monokai-sublime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/monokai.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/obsidian.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/ocean.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/paraiso-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/paraiso-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/pojoaque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/pojoaque.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/purebasic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/qtcreator_dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/qtcreator_light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/railscasts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/rainbow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/routeros.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/school-book.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/school-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/solarized-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/solarized-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/sunburst.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/tomorrow-night-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/tomorrow-night-bright.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/tomorrow-night-eighties.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/tomorrow-night.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/tomorrow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/vs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/vs2015.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/xcode.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/xt256.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/highlightjs/styles/zenburn.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/auto-render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/auto-render.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/copy-tex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/copy-tex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/copy-tex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/copy-tex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/mathtex-script-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/contrib/mathtex-script-type.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_AMS-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_AMS-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_AMS-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_AMS-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Caligraphic-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Fraktur-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Main-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Math-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_SansSerif-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Script-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Script-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Script-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Script-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size1-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size1-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size1-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size1-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size2-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size2-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size2-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size2-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size3-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size3-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size3-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size3-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size4-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size4-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size4-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Size4-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Typewriter-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Typewriter-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Typewriter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/fonts/KaTeX_Typewriter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/katex.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/katex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/katex.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/katex/katex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/markdown/github-markdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/dist/mavon-editor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/cn/images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/cn/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/cn/no-cnd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/cn/upload-images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/cn/use.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/en/images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/en/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/en/no-cnd.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/en/upload-images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/doc/en/use.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/mavon-editor.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/1c.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/abnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/accesslog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/actionscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ada.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/apache.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/applescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/arduino.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/armasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/asciidoc.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/aspectj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/autohotkey.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/autoit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/avrasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/awk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/axapta.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/bash.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/basic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/bnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/brainfuck.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/cal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/capnproto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ceylon.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/clean.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/clojure-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/clojure.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/cmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/coffeescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/coq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/cos.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/cpp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/crmsh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/crystal.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/csp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/css.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/d.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/delphi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/diff.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/django.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dns.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dockerfile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dos.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dsconfig.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/dust.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ebnf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/elixir.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/elm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/erb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/erlang-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/erlang.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/excel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/fix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/flix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/fortran.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/fsharp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/gams.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/gauss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/gcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/gherkin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/glsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/go.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/golo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/gradle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/groovy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/haml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/handlebars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/haskell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/haxe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/hsp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/htmlbars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/http.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/hy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/inform7.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ini.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/irpf90.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/java.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/javascript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/jboss-cli.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/json.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/julia-repl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/julia.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/kotlin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/lasso.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ldif.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/leaf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/less.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/lisp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/livecodeserver.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/livescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/llvm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/lsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/lua.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/makefile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/markdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mathematica.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/matlab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/maxima.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mercury.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mipsasm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mizar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/mojolicious.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/monkey.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/moonscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/n1ql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/nginx.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/nimrod.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/nix.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/nsis.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/objectivec.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ocaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/openscad.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/oxygene.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/parser3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/perl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/pf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/php.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/pony.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/powershell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/processing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/profile.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/prolog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/protobuf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/puppet.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/purebasic.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/python.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/q.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/qml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/r.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/rib.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/roboconf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/routeros.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/rsl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ruby.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/ruleslanguage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/rust.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/scala.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/scheme.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/scilab.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/scss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/shell.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/smali.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/smalltalk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/sml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/sqf.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/sql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/stan.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/stata.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/step21.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/stylus.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/subunit.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/swift.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/taggerscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/tap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/tcl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/tex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/thrift.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/tp.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/twig.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/typescript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vala.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vbnet.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vbscript-html.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vbscript.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/verilog.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vhdl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/vim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/x86asm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/xl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/xml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/xquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/yaml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/languages/zephir.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/agate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/androidstudio.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/arduino-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/arta.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/ascetic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-cave-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-cave-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-dune-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-dune-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-estuary-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-estuary-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-forest-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-forest-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-heath-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-heath-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-lakeside-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-lakeside-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-plateau-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-plateau-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-savanna-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-savanna-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-seaside-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-seaside-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-sulphurpool-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atelier-sulphurpool-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atom-one-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/atom-one-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/brown-paper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/brown-papersq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/codepen-embed.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/color-brewer.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/darcula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/darkula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/docco.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/dracula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/far.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/foundation.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/github-gist.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/github.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/googlecode.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/grayscale.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/gruvbox-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/gruvbox-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/hopscotch.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/hybrid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/idea.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/ir-black.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/kimbie.dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/kimbie.light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/magula.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/mono-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/monokai-sublime.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/monokai.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/obsidian.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/ocean.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/paraiso-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/paraiso-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/pojoaque.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/pojoaque.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/purebasic.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/qtcreator_dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/qtcreator_light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/railscasts.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/rainbow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/routeros.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/school-book.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/school-book.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/solarized-dark.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/solarized-light.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/sunburst.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/tomorrow-night-blue.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/tomorrow-night-bright.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/tomorrow-night-eighties.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/tomorrow-night.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/tomorrow.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/vs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/vs2015.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/xcode.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/xt256.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/highlight.js-9.12.0/styles/zenburn.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/resources/markdown/github-markdown.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/components/md-toolbar-left.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/components/md-toolbar-right.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/extra-function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/hljs/lang.hljs.css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/hljs/lang.hljs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/keydown-listen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/onecolumn-event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/core/to-markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/css/markdown.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/css/mavon-editor.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/css/md.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/css/scroll.styl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/animation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/fontello-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/fontello-embedded.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/fontello-ie7-codes.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/fontello-ie7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/css/fontello.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/font/fontello.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/font/fontello.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/font/fontello.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/font/fontello.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/font/font/fontello.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/de/help_de.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/de/words_de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/en/help_en.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/en/words_en.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/fr/help_fr.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/fr/words_fr.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/ja/help_ja.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/ja/words_ja.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/pt-BR/help_pt-BR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/pt-BR/words_pt-BR.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/ru/help_ru.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/ru/words_ru.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/zh-CN/help_zh-CN.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/lang/zh-CN/words_zh-CN.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/mixins/markdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/toolbar_left_click.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/toolbar_right_click.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/lib/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/src/mavon-editor.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/webpack/webpack.base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/webpack/webpack.build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/webpack/webpack.build.js.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/webpack/webpack.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/mavon-editor/webpack/webpack.dev.js.bak" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/IvanBlade-springboot-base/target/" />
+    <ignored path="$PROJECT_DIR$/IvanBlade-springboot-web/target/" />
+    <ignored path="$PROJECT_DIR$/IvanBlade-springboot-core/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="207790029">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="152" />
+          <entry key="xml" value="367" />
+          <entry key="yml" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="152" />
+          <entry key="XML" value="367" />
+          <entry key="YAML" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+          <entry key="xml" value="5" />
+          <entry key="yml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="XML" value="5" />
+          <entry key="YAML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/web/control/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/WebApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-base/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-core/pom.xml" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-web/pom.xml" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/WebApplication.java" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-base/pom.xml" />
+        <option value="$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/web/control/MainController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\springboot_project\respository" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.2-bin\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IvanBlade-springboot-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IvanBlade-springboot-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade-springboot-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="IvanBlade" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582288983766" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="IvanBlade-springboot-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.IvanBlade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.IvanBlade.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44bb8364-9368-47e8-aabf-d031097381be" name="Default Changelist" comment="" />
+      <created>1582285257987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582285257987</updated>
+      <workItem from="1582285268280" duration="7000" />
+      <workItem from="1582285422515" duration="3526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3533000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497979" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/WebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-base/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IvanBlade-springboot-web/src/main/java/com/IvanBlade/web/control/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
