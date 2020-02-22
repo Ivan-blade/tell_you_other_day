@@ -5,6 +5,7 @@ import About from '../views/About.vue'
 import PersonalInfo from '../views/PersonalInfo.vue'
 import Messages from '../views/Messages.vue'
 import Settings from '../views/Settings.vue'
+import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/settings',
     name: 'Settings',
     component: Settings
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: Login
   }
 ]
 

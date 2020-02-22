@@ -44,7 +44,8 @@
             { icon: 'folder', text: 'Diarys', route: '/' },
             { icon: 'person', text: 'Messages', route: '/messages' },
             { icon: 'dashboard', text: 'Settings', route: '/settings' },
-            { icon: 'folder', text: 'About', route: '/about' }
+            { icon: 'folder', text: 'About', route: '/about' },
+            { icon: 'person', text: 'Login', route: '/login' }
         ]
       }
     }
