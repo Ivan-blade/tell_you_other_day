@@ -50,8 +50,59 @@
                 `username` varchar(255) DEFAULT NULL,
                 `password` varchar(255) DEFAULT NULL,
                 `userphone` bigint(32) DEFAULT NULL,
+                `userface` varchar(255) DEFAULT NULL,
                 `email` varchar(64) DEFAULT NULL,
                 `enabled` tinyint(1) NOT NULL DEFAULT 1,
+                `regTime` datetime DEFAULT NOW(),
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            ```
+        + roles
+            ```
+                CREATE TABLE IF NOT EXISTS `roles` (
+                `id` bigint(32) NOT NULL AUTO_INCREMENT,
+                `name` varchar(32) DEFAULT NULL,
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            ```
+        + roles_user
+            ```
+                CREATE TABLE IF NOT EXISTS `roles_user` (
+                `id` bigint(32) NOT NULL AUTO_INCREMENT,
+                `rid` int(11) DEFAULT 2,
+                `uid` int(11) DEFAULT NULL,
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+                
+                
+                
+                alter table roles_user add index(rid);
+                alter table roles_user add index(uid);
+            ```
+        + category
+            ```
+                CREATE TABLE IF NOT EXISTS `category` (
+                `id` bigint(32) NOT NULL AUTO_INCREMENT,
+                `cateName` varchar(255) DEFAULT NULL,
+                `date` date DEFAULT NULL,
+                `uid` bigint(32) DEFAULT NULL,
+                PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+            ```
+        + article
+            ```
+                CREATE TABLE IF NOT EXISTS `article` (
+                `id` bigint(32) NOT NULL AUTO_INCREMENT,
+                `title` varchar(255) DEFAULT NULL,
+                `mdContent` text DEFAULT NULL,
+                `htmlContent` text DEFAULT NULL,
+                `summary` text DEFAULT NULL,
+                `cid` int(11) DEFAULT NULL,
+                `uid` int(11) DEFAULT NULL,
+                `publishDate` datetime DEFAULT NULL,
+                `editTime` datetime DEFAULT NULL,
+                `state` int(11) DEFAULT NULL,
+                `pageView` int(11) DEFAULT 0,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -82,3 +133,19 @@
             + 综上还是老实自增id吧，写个日记还用不上分布式（主要是现在还不会）
 
         + 写一下登录页面和登录逻辑
+        
++ 2020-2-23
+    + 昨天到今天打算采用模块化开发+security一气呵成来着，结果出现了各种各样的问题，不应该操之过急的，在authority这一块还不是很清楚，可能之后需要回滚了
+
++ 2020-2-27
+    + 由于方向做错，做其他事情平复了一下心情，模块化，必须上的，但是目前不熟悉，只保留框架，实际所有的依赖都会填充到一个模块里，后期修改，springsecurity也是必须上的，主要是userdetail的授权接口比较麻烦，暂且模仿github上的项目先做吧
++ 2020-2-28
+    + 昨天给字节跳动投了前端的实习简历，唉，自己太菜了，能过就好了，半学期时间，我觉得足够达到他们前端的要求了，好像是该找实习了，毕竟暑期实习不能暑假找，先把这个项目写完吧
+
++ 2020-2-29
+    + 将github上的vblog后端先整体迁移到了这个项目的后端，今天想一下修改方式吧，根据功能模块梳理一下那个项目的工作流程
+
++ 2020-3-1
+    + 重新设计了数据库
+    + 当后端采用模块化开发时，好像vscode就找不到主函数在哪了，在使用终端运行时应该是默认会寻找最外层的主函数，但是主函数在内层就没办法找到了
+    + 注册登录功能算是完成了，不过用户信息需要加上性别，后面再说，今天引入mavon编辑器的时候发现它的优先级非常大，覆盖住了navbar，改z-index好像没有，这样只能给它单独一个页面了，后来发现通过增加新的路由方式，不行，因为路由渲染和bar是同一级别的，还是会覆盖住navbar，在一个教学视频上看见了v-dialog组件，应该可以实现这个需求

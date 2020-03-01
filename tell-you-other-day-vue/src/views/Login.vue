@@ -38,6 +38,7 @@
                     depressed
                     large
                     tile
+                    @click="goToLogin"
                     >登录</v-btn>
                 </div>
             </v-col>
@@ -48,6 +49,7 @@
                     color="blue lighten-1" 
                     large
                     tile
+                    @click="goToReg"
                     >注册</v-btn>
                 </div>
             </v-col>
@@ -56,7 +58,8 @@
 </template>
 
 <script>
-export default {
+  import { postRequest } from '../utils/api'
+  export default {
     name: 'Login',
     data() {
       return {
@@ -68,8 +71,56 @@ export default {
             value => !!value || 'Required.'
         ]
       }
+    },
+    methods: {
+      goToLogin () {
+        postRequest('/login',{
+          username: this.username,
+          password: this.password
+        }).then(resp=> {
+          if (resp.status == 200) {
+            //成功
+            var json = resp.data
+            if (json.status == 'success') {
+              console.log('登录成功','成功！')
+              this.$router.replace({path: '/personalInfo'})
+            } else {
+              console.log('登录失败!', '失败!')
+            }
+          } else {
+            //失败
+            console.log('登录失败!', '失败!')
+          }
+        }, resp=> {
+          console.log('找不到服务器⊙﹏⊙∥!', '失败!')
+          console.log(resp)
+        })
+      },
+      goToReg () {
+        postRequest('/reg',{
+          username: this.username,
+          password: this.password,
+          email: this.email
+        }).then(resp=> {
+          if (resp.status == 200) {
+            //成功
+            var json = resp.data;
+            if (json.status == 'success') {
+              console.log('注册成功', '成功!')
+            } else {
+              console.log('注册失败!', '失败!')
+            }
+          } else {
+            //失败
+            console.log('注册失败!', '失败!')
+          }
+        }, resp=> {
+          console.log('找不到服务器⊙﹏⊙∥!', '失败!')
+          console.log(resp)
+        })
+      }
     }
-}
+  }
 </script>
 
 <style lang="less" scoped>

@@ -19,7 +19,7 @@
           </v-list-item>
           <v-list-item>
             <span>
-              昵称：administrator
+              昵称：{{currentUserName}}
             </span>
           </v-list-item>
           <v-list-item>
@@ -33,7 +33,22 @@
 </template>
 
 <script>
+  import { getRequest } from '../utils/api'
   export default {
-    name: 'PersonalInfo'
+    name: 'PersonalInfo',
+    mounted: function () {
+      var _this = this
+      getRequest("/currentUserName").then(function (msg) {
+        _this.currentUserName = msg.data;
+      }, function (msg) {
+        _this.currentUserName = '游客';
+        console.log(msg)
+      });
+    },
+    data(){
+      return {
+        currentUserName: ''
+      }
+    }
   }
 </script>

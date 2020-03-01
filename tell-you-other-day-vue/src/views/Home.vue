@@ -8,12 +8,19 @@
       event-color="green lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
-    <mavon-editor></mavon-editor>
+    <v-btn
+     class="my-2" 
+     fab 
+     dark
+     large 
+     color="cyan"
+     @click="goToWrite">
+      <v-icon dark>mdi-pencil</v-icon>
+    </v-btn>
   </v-row>
 </template>
 
 <script>
-  import mavonEditor from '../components/MavonEditor'
   export default {
     name: 'Home',
     data () {
@@ -23,12 +30,16 @@
         pickerDate: null,
       }
     },
-    components: {
-      mavonEditor
-    },
     watch: {
       picker (val) {
         console.log(val)
+      }
+    },
+    methods: {
+      goToWrite() {
+        this.$router.push({
+          path: '/write'
+        })
       }
     }
   }
