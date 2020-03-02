@@ -40,7 +40,6 @@ public class ArticleController {
 
     /**
      * 上传图片
-     *
      * @return 返回值为图片的地址
      */
     @RequestMapping(value = "/uploadimg", method = RequestMethod.POST)

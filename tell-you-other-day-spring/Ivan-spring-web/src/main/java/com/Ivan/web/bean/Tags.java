@@ -1,5 +1,8 @@
 package com.Ivan.web.bean;
 
+/**
+ * Created by sang on 2017/12/21.
+ */
 public class Tags {
     private Long id;
     private String tagName;
@@ -20,4 +23,3 @@ public class Tags {
         this.tagName = tagName;
     }
 }
-

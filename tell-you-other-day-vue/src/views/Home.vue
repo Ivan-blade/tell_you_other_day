@@ -8,19 +8,12 @@
       event-color="green lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
-    <v-btn
-     class="my-2" 
-     fab 
-     dark
-     large 
-     color="cyan"
-     @click="goToWrite">
-      <v-icon dark>mdi-pencil</v-icon>
-    </v-btn>
+    <v-write></v-write>
   </v-row>
 </template>
 
 <script>
+  import Write from '../components/Write'
   export default {
     name: 'Home',
     data () {
@@ -30,9 +23,12 @@
         pickerDate: null,
       }
     },
+    components: {
+      'v-write': Write
+    },
     watch: {
       picker (val) {
-        console.log(val)
+        console.log(typeof(val))
       }
     },
     methods: {
