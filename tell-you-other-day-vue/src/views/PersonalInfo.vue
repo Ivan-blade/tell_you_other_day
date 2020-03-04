@@ -9,12 +9,12 @@
         <v-list-item-group>
           <v-list-item>
             <span>
-              id: 123456789
+              id: {{currentUserId}}
             </span>
           </v-list-item>
           <v-list-item>
             <span>
-              性别：男
+              邮箱：{{currentUserEmail}}
             </span>
           </v-list-item>
           <v-list-item>
@@ -24,7 +24,7 @@
           </v-list-item>
           <v-list-item>
             <span>
-              格言：只放一只牛
+              格言：{{currentUserface}}
             </span>
           </v-list-item>
         </v-list-item-group>
@@ -44,10 +44,31 @@
         _this.currentUserName = '游客';
         console.log(msg)
       });
+      getRequest("/currentUserId").then(function (msg) {
+        _this.currentUserId = msg.data;
+      }, function (msg) {
+        _this.currentUserId = 'unknown';
+        console.log(msg)
+      });
+       getRequest("/currentUserEmail").then(function (msg) {
+        _this.currentUserEmail = msg.data;
+      }, function (msg) {
+        _this.currentUserEmail = 'unknown';
+        console.log(msg)
+      });
+       getRequest("/currentUserface").then(function (msg) {
+        _this.currentUserface = msg.data;
+      }, function (msg) {
+        _this.currentUserface = '这个人很懒...';
+        console.log(msg)
+      });
     },
     data(){
       return {
-        currentUserName: ''
+        currentUserName: '',
+        currentUserId: '',
+        currentUserface: '',
+        currentUserEmail: ''
       }
     }
   }

@@ -11,13 +11,7 @@
     </update>
     <update id="updateArticle" parameterType="com.Ivan.web.bean.Article">
         UPDATE article SET
-        title=#{title},mdContent=#{mdContent},htmlContent=#{htmlContent},summary=#{summary},cid=#{cid},editTime=#{editTime}
-        <if test="state==1">
-            ,state=1
-        </if>
-        <if test="publishDate!=null">
-            ,publishDate=#{publishDate}
-        </if>
+        title=#{title},mdContent=#{mdContent},editTime=#{editTime}
         WHERE id=#{id}
     </update>
     <select id="getArticleByState" resultType="com.Ivan.web.bean.Article">
@@ -76,6 +70,10 @@
     </delete>
     <select id="getArticleById" parameterType="Long" resultMap="BaseResultMap">
         SELECT a.*,t.`tagName`,t.`id` AS tid,u.`nickname`,c.`cateName` FROM article a LEFT JOIN article_tags ats ON a.`id`=ats.`aid` LEFT JOIN tags t ON ats.`tid`=t.`id` LEFT JOIN user u ON a.`uid`=u.`id` LEFT JOIN category c ON a.`cid`=c.`id` WHERE a.id=#{aid}
+    </select>
+
+    <select id="getArticleByDate" resultMap="BaseResultMap">
+        SELECT a.* FROM article a WHERE a.publishDate LIKE concat('%',#{date},'%') AND a.state=#{state} AND a.uid=#{uid}
     </select>
 
     <resultMap id="BaseResultMap" type="com.Ivan.web.bean.Article">

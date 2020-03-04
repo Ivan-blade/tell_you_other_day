@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -23,7 +24,7 @@ import java.util.*;
 @RequestMapping("/article")
 public class ArticleController {
 
-    private SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");
+    private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
     @Autowired
     ArticleService articleService;
@@ -36,6 +37,11 @@ public class ArticleController {
         } else {
             return new RespBean("error", article.getState() == 0 ? "文章保存失败!" : "文章发表失败!");
         }
+    }
+
+    @RequestMapping(value = "/{date}/{state}",method = RequestMethod.GET)
+    public Article getArticleByDate(@PathVariable String date,@PathVariable Integer state) {
+        return articleService.getArticleByDate(date,state);
     }
 
     /**

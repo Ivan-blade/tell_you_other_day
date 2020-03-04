@@ -8,7 +8,7 @@
       event-color="green lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
-    <v-write></v-write>
+    <v-write :date="picker"></v-write>
   </v-row>
 </template>
 
@@ -28,7 +28,7 @@
     },
     watch: {
       picker (val) {
-        console.log(typeof(val))
+        console.log(val)
       }
     },
     methods: {

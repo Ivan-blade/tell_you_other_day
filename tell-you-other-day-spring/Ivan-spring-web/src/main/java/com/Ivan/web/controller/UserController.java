@@ -35,6 +35,9 @@ public class UserController {
         return Util.getCurrentUser().getEmail();
     }
 
+    @RequestMapping("/currentUserface")
+    public String currentUserface() { return  Util.getCurrentUser().getUserface();}
+
     @RequestMapping("/isAdmin")
     public Boolean isAdmin() {
         List<GrantedAuthority> authorities = Util.getCurrentUser().getAuthorities();

@@ -22,6 +22,15 @@ public class User implements UserDetails {
     private String email;
     private String userface;
     private Timestamp regTime;
+    private Long userphone;
+
+    public Long getUserphone() {
+        return userphone;
+    }
+
+    public void setUserphone(Long userphone) {
+        this.userphone = userphone;
+    }
 
     public Timestamp getRegTime() {
         return regTime;

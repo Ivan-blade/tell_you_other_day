@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Date;
 import java.util.List;
@@ -47,6 +48,12 @@ public class ArticleService {
             int i = articleMapper.updateArticle(article);
             return i;
         }
+    }
+
+    public Article getArticleByDate(String date,Integer state) {
+        Long uid = Util.getCurrentUser().getId();
+        Article article = articleMapper.getArticleByDate(date,uid,state);
+        return article;
     }
 
     public String stripHtml(String content) {

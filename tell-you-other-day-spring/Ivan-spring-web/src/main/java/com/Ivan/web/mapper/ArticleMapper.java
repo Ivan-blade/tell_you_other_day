@@ -5,6 +5,7 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 
+import java.sql.Timestamp;
 import java.util.List;
 
 @Mapper
@@ -26,6 +27,8 @@ public interface ArticleMapper {
     int deleteArticleById(@Param("aids") Long[] aids);
 
     Article getArticleById(Long aid);
+
+    Article getArticleByDate(@Param("date") String date,@Param("uid") Long uid,@Param("state") Integer state);
 
     void pvIncrement(Long aid);
 

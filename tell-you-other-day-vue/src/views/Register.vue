@@ -1,8 +1,8 @@
 <template>
-    <v-container class="px-10">
+  <v-container class="px-10">
         <v-row align="center">
             <v-col
-            class="my-5"
+            class="my-2"
             >
                 <v-text-field
                 v-model="username"
@@ -19,6 +19,20 @@
                 @click:append="show = !show"
                 :rules="rules" 
                 hide-details="auto"
+                class="my-5"
+                ></v-text-field>
+                <v-text-field
+                v-model="email"
+                label="email"
+                :rules="rules" 
+                hide-details="auto"
+                class="my-5"
+                ></v-text-field>
+                <v-text-field
+                v-model="userface"
+                label="userface" 
+                hide-details="auto"
+                :rules="rules"
                 class="my-5"
                 ></v-text-field>
             </v-col>
@@ -42,7 +56,7 @@
                     color="blue lighten-1" 
                     large
                     tile
-                    @click="goToReg"
+                    @click="Register"
                     >注册</v-btn>
                 </div>
             </v-col>
@@ -53,11 +67,13 @@
 <script>
   import { postRequest } from '../utils/api'
   export default {
-    name: 'Login',
+    name: 'Register',
     data() {
       return {
         username: '',
         password: '',
+        email: '',
+        userface: '',
         show: false,
         rules: [
             value => !!value || 'Required.'
@@ -66,60 +82,38 @@
     },
     methods: {
       goToLogin () {
-        postRequest('/login',{
+        this.$router.push({
+          path: '/login'
+        })
+      },
+      Register () {
+        postRequest('/reg',{
           username: this.username,
-          password: this.password
+          password: this.password,
+          email: this.email,
+          userface: this.userface,
         }).then(resp=> {
           if (resp.status == 200) {
             //成功
-            var json = resp.data
+            var json = resp.data;
             if (json.status == 'success') {
-              console.log('登录成功','成功！')
-              this.$router.replace({path: '/personalInfo'})
+              console.log('注册成功', '成功!')
             } else {
-              console.log('登录失败!', '失败!')
+              console.log('注册失败!', '失败!')
             }
           } else {
             //失败
-            console.log('登录失败!', '失败!')
+            console.log('注册失败!', '失败!')
           }
         }, resp=> {
           console.log('找不到服务器⊙﹏⊙∥!', '失败!')
           console.log(resp)
         })
-      },
-      goToReg () {
-        this.$router.push({
-          path: '/register'
-        })
       }
-      // goToReg () {
-      //   postRequest('/reg',{
-      //     username: this.username,
-      //     password: this.password,
-      //     email: this.email
-      //   }).then(resp=> {
-      //     if (resp.status == 200) {
-      //       //成功
-      //       var json = resp.data;
-      //       if (json.status == 'success') {
-      //         console.log('注册成功', '成功!')
-      //       } else {
-      //         console.log('注册失败!', '失败!')
-      //       }
-      //     } else {
-      //       //失败
-      //       console.log('注册失败!', '失败!')
-      //     }
-      //   }, resp=> {
-      //     console.log('找不到服务器⊙﹏⊙∥!', '失败!')
-      //     console.log(resp)
-      //   })
-      // }
     }
   }
 </script>
 
-<style lang="less" scoped>
+<style>
 
 </style>

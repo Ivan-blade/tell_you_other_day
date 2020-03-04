@@ -7,6 +7,7 @@
         fab 
         dark 
         color="blue lighten-1"
+        @click="getArticle"
         v-on="on">
           <v-icon dark>mdi-pencil</v-icon>
         </v-btn>
@@ -49,9 +50,6 @@
               v-for="item in items"
               :key="item.tab"
             >
-              <!-- <v-card flat>
-                <v-card-text>{{ item.content }}</v-card-text>
-              </v-card> -->
               <div class="mx-4 mr-10">
                 <v-text-field 
                 label="Title" 
@@ -82,6 +80,7 @@
   import { mavonEditor } from 'mavon-editor'
   import 'mavon-editor/dist/css/index.css'
   import { postRequest } from '../utils/api'
+  import { getRequest } from '../utils/api'
   import {isNotNullORBlank} from '../utils/utils'
   export default {
     data () {
@@ -91,13 +90,20 @@
         state: 1,
         decision: false,
         items: [
-          { tab: 'Diary', content: 'Diary Content', state: 1 },
-          { tab: 'Secret', content: 'Secret Content', state: 2},
+          { tab: 'Diary', state: 1 },
+          { tab: 'Secret', state: 2},
         ],
         article: {
-          id: -1,
+          id: '-1',
           title: '',
           mdContent: ''
+        }
+      }
+    },
+    watch: {
+      state: function() {
+        if(this.state) {
+          this.getArticle()
         }
       }
     },
@@ -108,7 +114,6 @@
       articleSave () {
         if (!(isNotNullORBlank(this.article.title, this.article.mdContent))) {
           console.log({type: 'error', message: '数据不能为空!'});
-          console.log(this.article.mdContent)
           return;
         }
         var _this = this;
@@ -126,12 +131,25 @@
         }, resp=> {
           console.log({type: 'error', message: resp});
         })
+      },
+      getArticle() {
+        var _this = this;
+        getRequest(`/article/${_this.date}/${_this.state}`).then(resp=> {
+          if (resp.status == 200 && resp.data) {
+          _this.article = resp.data;
+          console.log(resp)
+          } else {
+            _this.article.id = -1
+            _this.article.title = ''
+            _this.article.mdContent = '' 
+          }
+        })
       }
     },
     components: {
       'mavon-editor': mavonEditor
     },
-    
+    props: ['date']
   }
 </script>
 
