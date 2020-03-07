@@ -62,8 +62,9 @@
                   <mavon-editor 
                     ref=md 
                     v-model="article.mdContent"
-                    :toolbarsFlag=decision
-                    defaultOpen="edit"
+                    :toolbarsFlag = decision
+                    :defaultOpen = editorMode
+                    :subfield = divideScreen
                     placeholder=" ">
                   </mavon-editor>
                 </div>
@@ -89,6 +90,8 @@
         tab: null,
         state: 1,
         decision: false,
+        divideScreen: false,
+        editorMode: 'edit',
         items: [
           { tab: 'Diary', state: 1 },
           { tab: 'Secret', state: 2},

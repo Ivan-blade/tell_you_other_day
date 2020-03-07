@@ -14,6 +14,9 @@
         title=#{title},mdContent=#{mdContent},editTime=#{editTime}
         WHERE id=#{id}
     </update>
+    <select id="getAllPublishDate" parameterType="Long" resultType="String">
+        SELECT publishDate FROM article WHERE uid=#{id}
+    </select>
     <select id="getArticleByState" resultType="com.Ivan.web.bean.Article">
         SELECT a.id,a.`title`,a.`editTime`,a.`pageView`,a.`state`,u.`nickname`,c.`cateName`,a.uid FROM article a,user
         u,category c WHERE a.`cid`=c.`id` AND a.`uid`=u.`id`

@@ -8,9 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.sql.Time;
 import java.sql.Timestamp;
-import java.util.Date;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
@@ -56,6 +55,10 @@ public class ArticleService {
         return article;
     }
 
+    public List<String> getAllPublishDate(Long id) {
+        List<String> allPublishDate = articleMapper.getAllPublishDate(id);
+        return allPublishDate;
+    }
     public String stripHtml(String content) {
         content = content.replaceAll("<p .*?>", "");
         content = content.replaceAll("<br\\s*/?>", "");

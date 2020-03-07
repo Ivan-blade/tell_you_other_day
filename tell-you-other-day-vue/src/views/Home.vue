@@ -13,14 +13,18 @@
 </template>
 
 <script>
+  import { getRequest } from '../utils/api'
   import Write from '../components/Write'
   export default {
     name: 'Home',
     data () {
       return {
         picker: new Date().toISOString().substr(0, 10),
+        // test: '2020-03-01 18:09:22',
         arrayEvents: null,
         pickerDate: null,
+        allPublishDate: '',
+        userid: 1
       }
     },
     components: {
@@ -29,6 +33,9 @@
     watch: {
       picker (val) {
         console.log(val)
+        // 测试日期格式化代码
+        // let formattest = this.test.substr(0, 10)
+        // console.log(formattest)
       }
     },
     methods: {
@@ -36,7 +43,20 @@
         this.$router.push({
           path: '/write'
         })
+      },
+      getAllPublishDate () {
+        var _this = this
+        getRequest(`/article/allPublishDate/${_this.userid}`).then(resp => {
+          if (resp.status == 200 && resp.data) {
+          _this.allPublishDate = resp.data;
+          } else {
+            console.log('查询失败') 
+          }
+        })
       }
+    },
+    mounted() {
+      this.getAllPublishDate()
     }
   }
 </script>

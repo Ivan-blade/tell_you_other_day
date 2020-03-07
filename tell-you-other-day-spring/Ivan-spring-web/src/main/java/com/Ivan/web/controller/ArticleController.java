@@ -38,11 +38,24 @@ public class ArticleController {
             return new RespBean("error", article.getState() == 0 ? "文章保存失败!" : "文章发表失败!");
         }
     }
-
+    /**
+     * 根据日期和文章类型获取目前登录用户的文章
+     */
     @RequestMapping(value = "/{date}/{state}",method = RequestMethod.GET)
     public Article getArticleByDate(@PathVariable String date,@PathVariable Integer state) {
         return articleService.getArticleByDate(date,state);
     }
+
+    /**
+     * 获取一个用户所有文章的发布日期
+     * @param id
+     * @return
+     */
+    @RequestMapping(value = "/allPublishDate/{id}",method = RequestMethod.GET)
+    public List<String> getAllPublishDate(@PathVariable Long id) {
+        return articleService.getAllPublishDate(id);
+    }
+
 
     /**
      * 上传图片
