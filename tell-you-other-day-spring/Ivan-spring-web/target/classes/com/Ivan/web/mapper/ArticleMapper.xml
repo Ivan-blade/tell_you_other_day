@@ -6,6 +6,9 @@
     <insert id="addNewArticle" parameterType="com.Ivan.web.bean.Article" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO article SET title=#{title},mdContent=#{mdContent},htmlContent=#{htmlContent},summary=#{summary},uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime}
     </insert>
+    <select id="getArticleByUs" resultType="com.Ivan.web.bean.Article">
+        SELECT * FROM article WHERE uid=#{uid} AND state=#{state}
+    </select>
     <update id="pvIncrement" parameterType="Long">
         UPDATE article set pageView=pageView+1 WHERE id=#{aid}
     </update>

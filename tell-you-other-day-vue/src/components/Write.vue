@@ -126,6 +126,7 @@
           mdContent: _this.article.mdContent,
           htmlContent: _this.$refs.md.d_render,
           state: _this.state,
+          publishDate: _this.date
         }).then(resp=> {
           if (resp.status == 200 && resp.data.status == 'success') {
             _this.article.id = resp.data.msg;

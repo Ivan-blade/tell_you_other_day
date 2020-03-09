@@ -33,7 +33,6 @@ public class ArticleService {
         if (article.getId() == -1) {
             //添加操作
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-            article.setPublishDate(timestamp);
             article.setEditTime(timestamp);
             //设置当前用户
             article.setUid(Util.getCurrentUser().getId());
@@ -41,7 +40,6 @@ public class ArticleService {
             return i;
         } else {
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-            article.setPublishDate(timestamp);
             //更新
             article.setEditTime(new Timestamp(System.currentTimeMillis()));
             int i = articleMapper.updateArticle(article);
@@ -53,6 +51,11 @@ public class ArticleService {
         Long uid = Util.getCurrentUser().getId();
         Article article = articleMapper.getArticleByDate(date,uid,state);
         return article;
+    }
+
+    public List<Article> getArticleByUs(Long uid,Integer state) {
+        List<Article> articles = articleMapper.getArticleByUs(uid,state);
+        return articles;
     }
 
     public List<String> getAllPublishDate(Long id) {

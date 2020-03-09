@@ -47,6 +47,14 @@ public class ArticleController {
     }
 
     /**
+     * 根据用户id和文章类型获取文章
+     */
+    @RequestMapping(value = "/view/{uid}/{state}",method = RequestMethod.GET)
+    public List<Article> getArticleByUs(@PathVariable Long uid,@PathVariable Integer state) {
+        return articleService.getArticleByUs(uid,state);
+    }
+
+    /**
      * 获取一个用户所有文章的发布日期
      * @param id
      * @return

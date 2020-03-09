@@ -7,6 +7,7 @@ import Messages from '../views/Messages.vue'
 import Settings from '../views/Settings.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
+import ViewAll from '../views/ViewAll.vue'
 
 Vue.use(VueRouter)
 
@@ -45,6 +46,11 @@ const routes = [
     path: '/register',
     name: 'Register',
     component: Register
+  },
+  {
+    path: '/viewall',
+    name: 'ViewAll',
+    component: ViewAll
   }
 ]
 

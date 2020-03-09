@@ -5,7 +5,7 @@
       color="blue lighten-1"
       width="100%"
       :events="arrayEvents"
-      event-color="green lighten-1"
+      event-color="blue lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
     <v-write :date="picker"></v-write>
@@ -20,10 +20,8 @@
     data () {
       return {
         picker: new Date().toISOString().substr(0, 10),
-        // test: '2020-03-01 18:09:22',
         arrayEvents: null,
         pickerDate: null,
-        allPublishDate: '',
         userid: 1
       }
     },
@@ -31,12 +29,7 @@
       'v-write': Write
     },
     watch: {
-      picker (val) {
-        console.log(val)
-        // 测试日期格式化代码
-        // let formattest = this.test.substr(0, 10)
-        // console.log(formattest)
-      }
+      picker (val) {}
     },
     methods: {
       goToWrite() {
@@ -48,7 +41,8 @@
         var _this = this
         getRequest(`/article/allPublishDate/${_this.userid}`).then(resp => {
           if (resp.status == 200 && resp.data) {
-          _this.allPublishDate = resp.data;
+          let formatDate = resp.data.map(item => item.substr(0,10))
+          _this.arrayEvents = formatDate
           } else {
             console.log('查询失败') 
           }

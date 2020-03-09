@@ -14,7 +14,7 @@ public class Article {
     private String summary;
     private Long cid;
     private Long uid;
-    private Timestamp publishDate;
+    private String publishDate;
     private Integer state;
     private Integer pageView;
     private Timestamp editTime;
@@ -128,11 +128,11 @@ public class Article {
         this.uid = uid;
     }
 
-    public Timestamp getPublishDate() {
+    public String getPublishDate() {
         return publishDate;
     }
 
-    public void setPublishDate(Timestamp publishDate) {
+    public void setPublishDate(String publishDate) {
         this.publishDate = publishDate;
     }
 

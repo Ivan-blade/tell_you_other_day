@@ -1,0 +1,103 @@
+<template>
+  <v-container style="max-width: 600px;">
+    <v-timeline dense clipped>
+      <v-timeline-item
+        fill-dot
+        class="white--text mb-12"
+        color="orange"
+        large
+      >
+        <template v-slot:icon>
+          <span>To</span>
+        </template>
+        <v-row justify="space-between">
+          <v-col>
+            <v-chip
+              class="white--text ml-0"
+              color="blue lighten-1"
+              label
+            >
+              Witness your past and future
+            </v-chip>
+          </v-col>
+        </v-row>
+      </v-timeline-item>
+
+      <v-slide-x-transition
+        group
+      >
+        <v-timeline-item
+          v-for="event in timeline"
+          :key="event.id"
+          class="mb-4"
+          color="blue"
+          small
+        >
+          <v-row justify="space-between">
+            <v-col cols="7" v-text="event.title"></v-col>
+            <v-col class="text-right" cols="5" v-text="event.publishDate"></v-col>
+          </v-row>
+        </v-timeline-item>
+      </v-slide-x-transition>
+
+      <v-timeline-item
+        class="mb-4"
+        small
+      >
+        <v-row justify="space-between">
+          <v-col cols="7">
+            <v-chip
+              class="white--text ml-0"
+              color="purple"
+              label
+              small
+            >
+              HELLO
+            </v-chip>
+            enjoy your recording!
+          </v-col>
+          <v-col class="text-right" cols="5">2020-03-04</v-col>
+        </v-row>
+      </v-timeline-item>
+    </v-timeline>
+  </v-container>
+</template>
+
+<script>
+import { getRequest } from '../utils/api'
+export default {
+    name: 'ViewAll',
+    data: () => ({
+      articles: [],
+      id: 1,
+      state: 1
+    }),
+
+    computed: {
+      timeline () {
+        return this.articles.slice()
+      }
+    },
+
+    methods: {
+      getContent() {
+        getRequest(`/article/view/${this.id}/${this.state}`).then(resp => {
+          if (resp.status == 200 && resp.data) {
+            this.articles = resp.data
+            console.log(this.articles)
+          } else {
+            console.log('查询失败') 
+          }
+        })
+      }
+    },
+
+    mounted() {
+      this.getContent()
+    }
+  }
+</script>
+
+<style>
+
+</style>

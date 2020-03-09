@@ -1,7 +1,10 @@
 <template>
 <!-- nav标签内没有特殊效果，该标签只是表示包含内容是导航标签，一般内容为列表 -->
   <nav>
-      <v-app-bar text class="blue lighten-1">
+      <v-app-bar
+       text 
+       class="blue lighten-1"
+       hide-on-scroll>
           <v-app-bar-nav-icon @click="navShow = !navShow" class="white--text"></v-app-bar-nav-icon>
           <v-toolbar-title class="text-uppercase white--text">
               <span class="font-weight-light">Ivan-blade</span>
@@ -40,12 +43,13 @@
       return {
         navShow: false,
         links: [
-            { icon: 'dashboard', text: 'Personal Info', route: '/personalInfo' },
-            { icon: 'folder', text: 'Diarys', route: '/' },
-            { icon: 'person', text: 'Messages', route: '/messages' },
-            { icon: 'dashboard', text: 'Settings', route: '/settings' },
-            { icon: 'folder', text: 'About', route: '/about' },
-            { icon: 'person', text: 'Login', route: '/login' }
+            { icon: 'person', text: 'Personal Info', route: '/personalInfo' },
+            { icon: 'notes', text: 'Diarys', route: '/' },
+            { icon: 'message', text: 'Messages', route: '/messages' },
+            { icon: 'settings', text: 'Settings', route: '/settings' },
+            { icon: 'assistant_photo', text: 'About', route: '/about' },
+            { icon: 'perm_identity', text: 'Login', route: '/login' },
+            { icon: 'view_list', text: 'ViewAll', route: '/viewall' }
         ]
       }
     }

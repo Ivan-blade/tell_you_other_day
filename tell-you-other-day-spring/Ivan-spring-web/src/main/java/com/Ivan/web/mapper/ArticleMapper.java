@@ -3,6 +3,7 @@ package com.Ivan.web.mapper;
 import com.Ivan.web.bean.Article;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.web.bind.annotation.PathVariable;
 
 
 import java.sql.Timestamp;
@@ -15,6 +16,8 @@ public interface ArticleMapper {
     int updateArticle(Article article);
 
     List<String> getAllPublishDate(Long id);
+
+    List<Article> getArticleByUs(@Param("uid") Long uid, @Param("state") Integer state);
 
     List<Article> getArticleByState(@Param("state") Integer state, @Param("start") Integer start, @Param("count") Integer count, @Param("uid") Long uid,@Param("keywords") String keywords);
 
