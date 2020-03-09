@@ -69,7 +69,7 @@ export default {
     name: 'ViewAll',
     data: () => ({
       articles: [],
-      id: 1,
+      userid: '',
       state: 1
     }),
 
@@ -81,7 +81,7 @@ export default {
 
     methods: {
       getContent() {
-        getRequest(`/article/view/${this.id}/${this.state}`).then(resp => {
+        getRequest(`/article/view/${this.userid}/${this.state}`).then(resp => {
           if (resp.status == 200 && resp.data) {
             this.articles = resp.data
             console.log(this.articles)
@@ -89,11 +89,18 @@ export default {
             console.log('查询失败') 
           }
         })
+      },
+      getInfo () {
+        var _this = this
+        getRequest("/currentUserId").then(function (resp) {
+          _this.userid = resp.data;
+          _this.$nextTick(_this.getContent())
+        })
       }
     },
 
     mounted() {
-      this.getContent()
+      this.getInfo()
     }
   }
 </script>
