@@ -36,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="1349" />
+          <entry key="java" value="1354" />
           <entry key="properties" value="12" />
           <entry key="xml" value="722" />
           <entry key="yml" value="233" />
@@ -44,7 +44,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1349" />
+          <entry key="JAVA" value="1354" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="12" />
           <entry key="SQL" value="5" />
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-124">
-              <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+            <state relative-caret-position="248">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addNewArticle#0;class#ArticleController#0" />
@@ -213,10 +213,10 @@
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java" />
       </list>
     </option>
   </component>
@@ -238,7 +238,7 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -397,7 +397,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583753569476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583753572108" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -449,15 +449,15 @@
       <updated>1582777397643</updated>
       <workItem from="1582777405322" duration="4264000" />
       <workItem from="1582861562298" duration="14843000" />
-      <workItem from="1583031271719" duration="46325000" />
+      <workItem from="1583031271719" duration="47085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65432000" />
+    <option name="totallyTimeSpent" value="66192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25383994" />
@@ -470,7 +470,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.28737542" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.31893688" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -993,8 +993,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-124">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="248">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addNewArticle#0;class#ArticleController#0" />

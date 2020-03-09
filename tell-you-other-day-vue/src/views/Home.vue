@@ -22,7 +22,7 @@
         picker: new Date().toISOString().substr(0, 10),
         arrayEvents: null,
         pickerDate: null,
-        userid: 1
+        userid: ''
       }
     },
     components: {
@@ -47,10 +47,18 @@
             console.log('查询失败') 
           }
         })
+      },
+      getInfo () {
+        var _this = this
+        getRequest("/currentUserId").then(function (resp) {
+          _this.userid = resp.data;
+          _this.$nextTick(_this.getAllPublishDate())
+        })
       }
+      
     },
     mounted() {
-      this.getAllPublishDate()
+      this.getInfo()
     }
   }
 </script>
