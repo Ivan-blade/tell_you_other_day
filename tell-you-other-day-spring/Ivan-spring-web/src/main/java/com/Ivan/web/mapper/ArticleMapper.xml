@@ -7,7 +7,7 @@
         INSERT INTO article SET title=#{title},mdContent=#{mdContent},htmlContent=#{htmlContent},summary=#{summary},uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime}
     </insert>
     <select id="getArticleByUs" resultType="com.Ivan.web.bean.Article">
-        SELECT * FROM article WHERE uid=#{uid} AND state=#{state}
+        SELECT * FROM article WHERE uid=#{uid} AND state=#{state} ORDER BY publishDate DESC
     </select>
     <update id="pvIncrement" parameterType="Long">
         UPDATE article set pageView=pageView+1 WHERE id=#{aid}

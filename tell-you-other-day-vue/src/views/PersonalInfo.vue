@@ -68,8 +68,12 @@
         currentUserName: '',
         currentUserId: '',
         currentUserface: '',
-        currentUserEmail: ''
+        currentUserEmail: '',
       }
     }
   }
 </script>
+
+<style lang="less" scoped>
+  
+</style>

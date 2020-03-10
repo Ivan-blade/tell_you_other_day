@@ -34,8 +34,19 @@
           small
         >
           <v-row justify="space-between">
-            <v-col cols="7" v-text="event.title"></v-col>
-            <v-col class="text-right" cols="5" v-text="event.publishDate"></v-col>
+            <v-col cols="6">
+                <show-article :title="event.title" :mdContent="event.mdContent" :time="event.publishDate"></show-article>
+            </v-col>
+            <v-col class="text-right" cols="6">
+                <v-chip
+                class="white--text ml-0"
+                color="cyan lighten-1"
+                label
+                small
+                >
+                {{event.publishDate}}
+                </v-chip>
+            </v-col>
           </v-row>
         </v-timeline-item>
       </v-slide-x-transition>
@@ -52,11 +63,19 @@
               label
               small
             >
-              HELLO
+              Start Here!
             </v-chip>
-            enjoy your recording!
           </v-col>
-          <v-col class="text-right" cols="5">2020-03-04</v-col>
+          <v-col class="text-right" cols="5">
+              <v-chip
+                class="white--text ml-0"
+                color="cyan lighten-1"
+                label
+                small
+                >
+                2020-03-04
+                </v-chip>
+          </v-col>
         </v-row>
       </v-timeline-item>
     </v-timeline>
@@ -64,6 +83,7 @@
 </template>
 
 <script>
+import ShowArticle from '../components/ShowArticle'
 import { getRequest } from '../utils/api'
 export default {
     name: 'ViewAll',
@@ -78,13 +98,16 @@ export default {
         return this.articles.slice()
       }
     },
+    
+    components: {
+      'show-article': ShowArticle
+    },
 
     methods: {
       getContent() {
         getRequest(`/article/view/${this.userid}/${this.state}`).then(resp => {
           if (resp.status == 200 && resp.data) {
             this.articles = resp.data
-            console.log(this.articles)
           } else {
             console.log('查询失败') 
           }

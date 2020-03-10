@@ -24,6 +24,8 @@
             class="mx-4" 
             dark 
             text 
+            :loading="loading"
+            :disabled="loading"
             @click="articleSave">
             Save
             </v-btn>
@@ -87,6 +89,8 @@
     data () {
       return {
         dialog: false,
+        loader: null,
+        loading: false,
         tab: null,
         state: 1,
         decision: false,
@@ -108,6 +112,13 @@
         if(this.state) {
           this.getArticle()
         }
+      },
+      loader () {
+        const temp = this.loader
+        this[temp] = !this[temp]
+        console.log(this[temp])
+        setTimeout(() => (this[temp] = false), 3000)
+        this.loader = null
       }
     },
     methods: {
@@ -119,7 +130,8 @@
           console.log({type: 'error', message: '数据不能为空!'});
           return;
         }
-        var _this = this;
+        var _this = this
+        _this.loader = 'loading'
         postRequest("/article/", {
           id: _this.article.id,
           title: _this.article.title,
@@ -130,11 +142,12 @@
         }).then(resp=> {
           if (resp.status == 200 && resp.data.status == 'success') {
             _this.article.id = resp.data.msg;
-            console.log({type: 'success', message: '保存成功！'});
+            console.log({type: 'success', message: '保存成功！'})
           }
         }, resp=> {
-          console.log({type: 'error', message: resp});
+          console.log({type: 'error', message: resp})
         })
+        
       },
       getArticle() {
         var _this = this;
@@ -161,5 +174,17 @@
 #editor {
     margin: auto;
     width: 100%;
+}
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
