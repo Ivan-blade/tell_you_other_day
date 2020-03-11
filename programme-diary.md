@@ -96,13 +96,11 @@
                 `id` bigint(32) NOT NULL AUTO_INCREMENT,
                 `title` varchar(255) DEFAULT NULL,
                 `mdContent` text DEFAULT NULL,
-                `htmlContent` text DEFAULT NULL,
                 `summary` text DEFAULT NULL,
                 `uid` int(11) DEFAULT NULL,
                 `publishDate` date DEFAULT NULL,
                 `editTime` datetime DEFAULT NULL,
                 `state` int(11) DEFAULT NULL,
-                `pageView` int(11) DEFAULT 0,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -421,3 +419,7 @@
     + 单独的预览功能ok了，说实话挺好看的，嘿嘿嘿，下面就是根据文章状态和用户id进行切换转变视图的功能了，等等，这边有个问题，秘密是对特定的人说的，如果匹配的人改变了？？？秘密要不要全部删除？？？不然给其他人看见挺尴尬的。。。，要不article数据表中加上展示对象字段？？？
     + 哦豁，发现了其他问题，没有按时间排序。。。数据库里查询的时候修改一下吧
     + ok，查询语句加一个字段就能让js少写一个函数，真的舒服
+
+#### 2020-3-11
+    + 最近打算将产品部署到服务器上了，买了阿里云的云服务器，系统centos，好像win10自带的远程登录有点问题，目前只能在阿里云官网登录或者用crt登录，不过crt的确不太好看。。。的确。。。
+    + 用了xshell6，域名实名制好像要两三天，备案又要三天左右，麻烦，今天整理一下后端，用不到的代码删掉吧

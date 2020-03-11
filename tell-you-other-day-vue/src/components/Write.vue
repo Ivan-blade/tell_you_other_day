@@ -116,7 +116,6 @@
       loader () {
         const temp = this.loader
         this[temp] = !this[temp]
-        console.log(this[temp])
         setTimeout(() => (this[temp] = false), 3000)
         this.loader = null
       }
@@ -154,7 +153,7 @@
         getRequest(`/article/${_this.date}/${_this.state}`).then(resp=> {
           if (resp.status == 200 && resp.data) {
           _this.article = resp.data;
-          console.log(resp)
+          // console.log(resp)
           } else {
             _this.article.id = -1
             _this.article.title = ''
