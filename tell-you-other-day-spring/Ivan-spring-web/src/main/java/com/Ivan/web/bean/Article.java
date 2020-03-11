@@ -1,7 +1,6 @@
 package com.Ivan.web.bean;
 
 import java.sql.Timestamp;
-import java.util.List;
 
 
 public class Article {

@@ -3,6 +3,7 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.Ivan.web.mapper.ArticleMapper">
+
     <insert id="addNewArticle" parameterType="com.Ivan.web.bean.Article" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO article SET title=#{title},mdContent=#{mdContent},summary=#{summary},uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime}
     </insert>
