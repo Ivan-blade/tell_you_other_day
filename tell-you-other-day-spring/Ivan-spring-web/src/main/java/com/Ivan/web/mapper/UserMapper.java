@@ -8,9 +8,6 @@ import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
-/**
- * Created by sang on 2017/12/17.
- */
 @Mapper
 public interface UserMapper {
 
@@ -19,8 +16,6 @@ public interface UserMapper {
     long reg(User user);
 
     int updateUserEmail(@Param("email") String email, @Param("id") Long id);
-
-    List<User> getUserByNickname(@Param("nickname") String nickname);
 
     List<Role> getAllRole();
 

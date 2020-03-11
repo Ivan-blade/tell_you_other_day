@@ -69,11 +69,6 @@ public class UserService implements UserDetailsService {
         return userMapper.updateUserEmail(email, Util.getCurrentUser().getId());
     }
 
-    public List<User> getUserByNickname(String nickname) {
-        List<User> list = userMapper.getUserByNickname(nickname);
-        return list;
-    }
-
     public List<Role> getAllRole() {
         return userMapper.getAllRole();
     }

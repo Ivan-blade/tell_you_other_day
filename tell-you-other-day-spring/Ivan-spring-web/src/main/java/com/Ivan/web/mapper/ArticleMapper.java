@@ -3,10 +3,7 @@ package com.Ivan.web.mapper;
 import com.Ivan.web.bean.Article;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.web.bind.annotation.PathVariable;
 
-
-import java.sql.Timestamp;
 import java.util.List;
 
 @Mapper

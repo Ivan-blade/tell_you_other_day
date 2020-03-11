@@ -21,10 +21,6 @@ public class UserManaController {
     @Autowired
     UserService userService;
 
-    @RequestMapping(value = "/user", method = RequestMethod.GET)
-    public List<User> getUserByNickname(String nickname) {
-        return userService.getUserByNickname(nickname);
-    }
 
     @RequestMapping(value = "/user/{id}", method = RequestMethod.GET)
     public User getUserById(@PathVariable Long id) {

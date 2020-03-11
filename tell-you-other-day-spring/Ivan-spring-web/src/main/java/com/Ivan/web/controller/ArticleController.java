@@ -3,23 +3,13 @@ package com.Ivan.web.controller;
 import com.Ivan.web.bean.Article;
 import com.Ivan.web.bean.RespBean;
 import com.Ivan.web.service.ArticleService;
-import com.Ivan.web.utils.Util;
-import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpServletRequest;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by sang on 2017/12/20.
- */
+
 @RestController
 @RequestMapping("/article")
 public class ArticleController {
