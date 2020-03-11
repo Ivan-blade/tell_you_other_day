@@ -6,15 +6,16 @@
     <insert id="addNewArticle" parameterType="com.Ivan.web.bean.Article" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO article SET title=#{title},mdContent=#{mdContent},summary=#{summary},uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime}
     </insert>
-    <select id="getArticleByUs" resultType="com.Ivan.web.bean.Article">
-        SELECT * FROM article WHERE uid=#{uid} AND state=#{state} ORDER BY publishDate DESC
-    </select>
 
     <update id="updateArticle" parameterType="com.Ivan.web.bean.Article">
         UPDATE article SET
         title=#{title},mdContent=#{mdContent},editTime=#{editTime}
         WHERE id=#{id}
     </update>
+
+    <select id="getArticleByUs" resultType="com.Ivan.web.bean.Article">
+        SELECT * FROM article WHERE uid=#{uid} AND state=#{state} ORDER BY publishDate DESC
+    </select>
 
     <select id="getAllPublishDate" parameterType="Long" resultType="String">
         SELECT publishDate FROM article WHERE uid=#{id}

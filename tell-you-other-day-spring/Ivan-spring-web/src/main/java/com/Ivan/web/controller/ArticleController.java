@@ -6,15 +6,12 @@ import com.Ivan.web.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 
 @RestController
 @RequestMapping("/article")
 public class ArticleController {
-
-    private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
     @Autowired
     ArticleService articleService;
@@ -26,13 +23,16 @@ public class ArticleController {
     public RespBean addNewArticle(Article article) {
         int result = articleService.addNewArticle(article);
         if (result == 1) {
-            return new RespBean("success", article.getId() + "");
+            return new RespBean("success", article.getId() + " "+ result);
         } else {
             return new RespBean("error", article.getState() == 0 ? "文章保存失败!" : "文章发表失败!");
         }
     }
     /**
      * 根据日期和文章类型获取目前登录用户的文章
+     * @param state
+     * @param date
+     * @return
      */
     @RequestMapping(value = "/{date}/{state}",method = RequestMethod.GET)
     public Article getArticleByDate(@PathVariable String date,@PathVariable Integer state) {
@@ -41,6 +41,9 @@ public class ArticleController {
 
     /**
      * 根据用户id和文章类型获取文章
+     * @param state
+     * @param uid
+     * @return
      */
     @RequestMapping(value = "/view/{uid}/{state}",method = RequestMethod.GET)
     public List<Article> getArticleByUs(@PathVariable Long uid,@PathVariable Integer state) {

@@ -10,9 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.sql.Timestamp;
 import java.util.List;
 
-/**
- * Created by sang on 2017/12/20.
- */
+
 @Service
 @Transactional
 public class ArticleService {
@@ -36,7 +34,6 @@ public class ArticleService {
             int i = articleMapper.addNewArticle(article);
             return i;
         } else {
-            Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             //更新
             article.setEditTime(new Timestamp(System.currentTimeMillis()));
             int i = articleMapper.updateArticle(article);
