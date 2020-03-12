@@ -18,6 +18,16 @@
         SELECT * FROM article WHERE uid=#{uid} AND state=#{state} ORDER BY publishDate DESC
     </select>
 
+    <select id="getArticleByUsOther" resultType="com.Ivan.web.bean.Article">
+        SELECT * FROM article
+        WHERE otherId=#{tempId}
+        AND state=#{state}
+        <if test="state == 2">
+            AND current_timestamp > showTime
+        </if>
+        ORDER BY publishDate DESC
+    </select>
+
     <select id="getAllPublishDate" parameterType="Long" resultType="String">
         SELECT publishDate FROM article WHERE uid=#{id}
     </select>

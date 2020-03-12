@@ -3,7 +3,7 @@
     <v-timeline dense clipped>
       <v-timeline-item
         fill-dot
-        class="white--text mb-12"
+        class="white--text mb-4"
         color="orange"
         large
       >
@@ -23,6 +23,62 @@
         </v-row>
       </v-timeline-item>
 
+      <v-timeline-item
+        class="mb-4 text--white"
+        color="blue"
+      >
+        <v-row justify="space-between">
+          <v-col cols="9">
+            <v-chip
+              class="white--text ml-0"
+              color="blue lighten-1"
+              label
+              @click="changeUser"
+            >
+              Click to change user view
+            </v-chip>
+          </v-col>
+          <v-col cols="3">
+            <v-chip
+              class="white--text ml-0"
+              color="cyan lighten-1"
+              label
+              small
+              >
+              {{this.userid}}
+            </v-chip>
+          </v-col>
+        </v-row>
+      </v-timeline-item>
+
+      <v-timeline-item
+        class="mb-4 text-white"
+        color="blue"
+      >
+        <v-row justify="space-between">
+          <v-col cols="9">
+            <v-chip
+              class="white--text ml-0"
+              color="blue lighten-1"
+              label
+              @click="changeState(state)"
+            >
+              Click to change article type
+            </v-chip>
+          </v-col>
+          <v-col cols="3">
+            <v-chip
+              class="white--text ml-0"
+              color="cyan lighten-1"
+              label
+              small
+              >
+              {{this.state}}
+            </v-chip>
+          </v-col>
+        </v-row>
+      </v-timeline-item>
+
       <v-slide-x-transition
         group
       >
@@ -35,7 +91,7 @@
         >
           <v-row justify="space-between">
             <v-col cols="6">
-                <show-article :title="event.title" :mdContent="event.mdContent" :time="event.publishDate"></show-article>
+                <show-article :title="event.title.substr(0,10)" :mdContent="event.mdContent" :time="event.publishDate"></show-article>
             </v-col>
             <v-col class="text-right" cols="6">
                 <v-chip
@@ -73,8 +129,8 @@
                 label
                 small
                 >
-                2020-03-04
-                </v-chip>
+                {{userinfo.regTime.substr(0,10)}}
+              </v-chip>
           </v-col>
         </v-row>
       </v-timeline-item>
@@ -90,9 +146,18 @@ export default {
     data: () => ({
       articles: [],
       userid: '',
-      state: 1
+      state: 1,
+      userinfo: ''
     }),
 
+    watch: {
+      state() {
+        this.getContent()
+      },
+      userid() {
+        this.getContent()
+      }
+    },
     computed: {
       timeline () {
         return this.articles.slice()
@@ -113,10 +178,21 @@ export default {
           }
         })
       },
+      changeState (state) {
+        return this.state = state == 1 ? 2 : 1
+      },
+      changeUser () {
+        if(this.userinfo.marchId) {
+          return this.userid = this.userid == this.userinfo.id ? this.userinfo.marchId : this.userinfo.id
+        } else {
+          console.log("该用户未匹配")
+        }
+      },
       getInfo () {
         var _this = this
-        getRequest("/currentUserId").then(function (resp) {
-          _this.userid = resp.data;
+        getRequest("/currentUserInfo").then(function (resp) {
+          _this.userinfo = resp.data
+          _this.userid = resp.data.id
           _this.$nextTick(_this.getContent())
         })
       }

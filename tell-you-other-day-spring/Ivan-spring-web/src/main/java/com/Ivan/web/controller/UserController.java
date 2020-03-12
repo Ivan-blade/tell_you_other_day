@@ -1,6 +1,7 @@
 package com.Ivan.web.controller;
 
 import com.Ivan.web.bean.RespBean;
+import com.Ivan.web.bean.User;
 import com.Ivan.web.service.UserService;
 import com.Ivan.web.utils.Util;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,9 @@ public class UserController {
 
     @Autowired
     UserService userService;
+
+    @RequestMapping("/currentUserInfo")
+    public User  currentUserInfo() { return Util.getCurrentUser();}
 
     @RequestMapping("/currentUserName")
     public String currentUserName() {

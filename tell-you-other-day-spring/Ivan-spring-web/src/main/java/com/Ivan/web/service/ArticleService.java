@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -16,7 +17,6 @@ import java.util.List;
 public class ArticleService {
     @Autowired
     ArticleMapper articleMapper;
-
 
     public int addNewArticle(Article article) {
         //处理文章摘要(用于展示文章部分内容)
@@ -48,7 +48,13 @@ public class ArticleService {
     }
 
     public List<Article> getArticleByUs(Long uid,Integer state) {
-        List<Article> articles = articleMapper.getArticleByUs(uid,state);
+        List<Article> articles = new ArrayList<>();
+        Long tempId = Util.getCurrentUser().getId();
+        if (uid == tempId) {
+            articles = articleMapper.getArticleByUs(uid,state);
+        } else if (uid != tempId) {
+            articles = articleMapper.getArticleByUsOther(tempId,state);
+        }
         return articles;
     }
 

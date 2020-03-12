@@ -55,6 +55,8 @@
                 `email` varchar(64) DEFAULT NULL,
                 `enabled` tinyint(1) NOT NULL DEFAULT 1,
                 `regTime` datetime DEFAULT NOW(),
+                `isMarch` tinyint(1) NOT NULL DEFAULT 0,
+                `marchId` bigint(32) DEFAULT NNULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -65,6 +67,11 @@
                 `name` varchar(32) DEFAULT NULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+                insert into roles set name = "超级管理员";
+                insert into roles set name = "普通用户";
+                insert into roles set name = "锁定用户";
+                虽然现在还没什么用。。。
             ```
         + roles_user
             ```
@@ -74,8 +81,6 @@
                 `uid` int(11) DEFAULT NULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-                
-                
                 
                 alter table roles_user add index(rid);
                 alter table roles_user add index(uid);
@@ -101,6 +106,8 @@
                 `publishDate` date DEFAULT NULL,
                 `editTime` datetime DEFAULT NULL,
                 `state` int(11) DEFAULT NULL,
+                `otherId` bigint(32) DEFAULT NULL,
+                `showTime` datetime DEFAULT NULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -425,3 +432,54 @@
     + 用了xshell6，域名实名制好像要两三天，备案又要三天左右，麻烦，今天整理一下后端，用不到的代码删掉吧
     + article部分删的差不多了，其他无关紧要的部分也差不多了，只剩下几个接口了，不过roles接口和users接口还不敢轻举妄动，事实上日记项目用户都不需要分类来着，接口先留着吧
     + 碰到一个奇怪的点，在插入和修改文章时使用了int类型的mapper想不通返回数据和int类型有什么关系，最后找到，int类型返回修改数据的条数，如果未修改就是0，可以判断操作是否成功
+
+#### 2020-3-12
+    + 进度要稍微快一点了，今天完成时间表双用户视图和双状态切换功能，文章数据表需要增加otherId字段和showTime字段，用户数据表需要加上isMarch字段和marchId
+        ```
+            ALTER TABLE `article` ADD COLUMN `otherId` bigint(32) DEFAULT NULL;
+            ALTER TABLE `article` ADD COLUMN `showTime` datetime DEFAULT NULL;
+            ALTER TABLE `user` ADD COLUMN `marchId` bigint(32) DEFAULT NULL;
+            ALTER TABLE `user` ADD COLUMN `isMarch` tinyint(1) DEFAULT 0;
+
+            由于粘贴脚本时忘了改名字，加错了数据库
+            ALTER TABLE `article` DROP COLUMN `marchId`;
+            ALTER TABLE `article` DROP COLUMN `isMarch`;
+        ```
+    + 目前只写日记视图渲染，所以匹配用户先直接插入做测试，匹配功能可能明天再写，开始整理后端
+    + 哦豁上数据库的课了
+    + 继续
+    + 哦豁已经遇上之前想的问题了，现在viewall功能的接口是通用型的接口，即接收到/id/state就开始查询数据，这样用户视图切换的确比较简单，但是会有一点点问题，我想想，在这个接口下增加一个比对功能，如果请求id和目前登录的userid不一致，另写一个mapper查询，该mapper将会对article的otherid和前端传入id进行匹配，另外如果传入state = 2，将会对article的showTime参数进行比较，只有当前时间大于showTime时，文章才会进行展示
+    + 标题做了截断，控制在十个字符以内，下面开始mapper校对功能
+    + 打包参考链接https://www.jb51.net/article/142837.htm
+    + 思路出了点问题，理一下思路，将匹配用户id传入后端时，后端做比对，如果与当前用户不匹配将会对article中的otherId字段进行搜索，数值为当前用户id
+    + 当对匹配用户的文章进行查询时，如果state = 1直接返回数据，如果state = 2时，将对时间进行比对，这边写一个sql判断函数吧
+    + sql里面的case好像不太会用，传闻mybatis当中有if语句用了很奇怪。。。这特么是什么人间疾苦，本来是这样的
+        ```
+            SELECT * FROM article
+            WHERE otherId=#{tempId}
+            AND state=#{state}
+            <if test="state = 2">
+                AND current_timestamp > showTime
+            </if>
+            ORDER BY publishDate DESC
+            这个写法，我还好奇为什么前端到后端state会被强制写成2，知道是mapper问题但是不知道是哪里的问题。。。
+            ----------------------------------
+            SELECT * FROM article
+            WHERE otherId=#{tempId}
+            AND state=#{state}
+            <if test="state.equals(2)">
+                AND current_timestamp > showTime
+            </if>
+            ORDER BY publishDate DESC
+            然后我发现这个可以用。。。以为自己发现了新大陆。。。
+            ----------------------------------
+            SELECT * FROM article
+            WHERE otherId=#{tempId}
+            AND state=#{state}
+            <if test="state == 2">
+                AND current_timestamp > showTime
+            </if>
+            ORDER BY publishDate DESC
+            哦豁。。。这是正解。。。被自己蠢哭了，跨语言也不能忘记比较用==啊。。。
+        ```
+    + 差不多该写匹配功能了，明天一天够了，然后文章功能部分修改一下估计也是一天，之后三天处理一下设置模块和基础信息部分的ui，到时候备案应该快了，到时候前端打包成app看能不能扔到一个平台上，后端部署到阿里云服务器，基本上算是完结了，更新后面再看，其他的技术栈不太能拖了，时日无多

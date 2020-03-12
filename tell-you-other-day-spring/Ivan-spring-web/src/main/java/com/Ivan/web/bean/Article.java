@@ -12,7 +12,24 @@ public class Article {
     private String publishDate;
     private Integer state;
     private Timestamp editTime;
+    private Long otherId;
+    private Timestamp showTime;
 
+    public Long getOtherId() {
+        return otherId;
+    }
+
+    public void setOtherId(Long otherId) {
+        this.otherId = otherId;
+    }
+
+    public Timestamp getShowTime() {
+        return showTime;
+    }
+
+    public void setShowTime(Timestamp showTime) {
+        this.showTime = showTime;
+    }
 
     public Timestamp getEditTime() {
         return editTime;
