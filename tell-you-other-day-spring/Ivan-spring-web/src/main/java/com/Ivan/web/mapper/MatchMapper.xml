@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.Ivan.web.mapper.MatchMapper">
+    <select id="getMatchInfo" parameterType="Long" resultType="com.Ivan.web.bean.Match">
+        SELECT * FROM `match` WHERE otherId = #{uid} AND status = 0;
+    </select>
+
+    <insert id="pullMatch" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO `match`
+        SET userId = #{userId}, userEmail = #{userEmail},
+            otherEmail = #{email},
+            otherId = (SELECT id FROM user WHERE email=#{email})
+    </insert>
+
+    <update id="updateMatch">
+        UPDATE `match` set status = #{status}
+         <if test="status == 1">
+             ,martchTime = current_timestamp
+         </if>
+         WHERE id = #{id}
+    </update>
+</mapper>

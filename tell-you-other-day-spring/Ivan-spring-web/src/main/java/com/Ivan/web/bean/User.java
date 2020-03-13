@@ -20,23 +20,24 @@ public class User implements UserDetails {
     private String userface;
     private Timestamp regTime;
     private Long userphone;
-    private boolean isMarch;
-    private Long marchId;
+    private int isMatch;
+    private Long matchId;
 
-    public boolean isMarch() {
-        return isMarch;
+
+    public int getIsMatch() {
+        return isMatch;
     }
 
-    public void setMarch(boolean march) {
-        isMarch = march;
+    public void setIsMatch(int isMatch) {
+        this.isMatch = isMatch;
     }
 
-    public Long getMarchId() {
-        return marchId;
+    public Long getMatchId() {
+        return matchId;
     }
 
-    public void setMarchId(Long marchId) {
-        this.marchId = marchId;
+    public void setMatchId(Long matchId) {
+        this.matchId = matchId;
     }
 
     public Long getUserphone() {

@@ -8,6 +8,7 @@ import Settings from '../views/Settings.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 import ViewAll from '../views/ViewAll.vue'
+import Match from '../views/Match.vue'
 
 Vue.use(VueRouter)
 
@@ -51,6 +52,11 @@ const routes = [
     path: '/viewall',
     name: 'ViewAll',
     component: ViewAll
+  },
+  {
+    path: '/match',
+    name: 'Match',
+    component: Match
   }
 ]
 

@@ -31,7 +31,7 @@
             </v-btn>
           </v-toolbar-items>
         </v-toolbar>
-        <v-card>
+        
           <v-tabs
             v-model="tab"
             background-color="blue lighten-1"
@@ -73,7 +73,7 @@
               </div>
             </v-tab-item>
           </v-tabs-items>
-        </v-card>
+        
       </v-card>
     </v-dialog>
   </v-row>

@@ -53,6 +53,7 @@ public class ArticleService {
         if (uid == tempId) {
             articles = articleMapper.getArticleByUs(uid,state);
         } else if (uid != tempId) {
+
             articles = articleMapper.getArticleByUsOther(tempId,state);
         }
         return articles;

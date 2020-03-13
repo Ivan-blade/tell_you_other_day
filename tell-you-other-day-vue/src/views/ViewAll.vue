@@ -91,7 +91,7 @@
         >
           <v-row justify="space-between">
             <v-col cols="6">
-                <show-article :title="event.title.substr(0,10)" :mdContent="event.mdContent" :time="event.publishDate"></show-article>
+                <show-article v-if="event.title" :title="event.title.substr(0,10)" :mdContent="event.mdContent" :time="event.publishDate"></show-article>
             </v-col>
             <v-col class="text-right" cols="6">
                 <v-chip
@@ -128,6 +128,7 @@
                 color="cyan lighten-1"
                 label
                 small
+                v-if="userinfo.regTime"
                 >
                 {{userinfo.regTime.substr(0,10)}}
               </v-chip>

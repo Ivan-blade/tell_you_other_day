@@ -40,6 +40,9 @@ public class UserController {
     @RequestMapping("/currentUserface")
     public String currentUserface() { return  Util.getCurrentUser().getUserface();}
 
+    @RequestMapping("/currentMatch")
+    public int currentMatch() { return  Util.getCurrentUser().getIsMatch();}
+
     @RequestMapping("/isAdmin")
     public Boolean isAdmin() {
         List<GrantedAuthority> authorities = Util.getCurrentUser().getAuthorities();

@@ -1,15 +1,16 @@
 <template>
-  <v-row justify="center">
+  <v-card class="fill-height">
     <v-date-picker
       v-model="picker"
       color="blue lighten-1"
-      width="100%"
+      :full-width="fullWidth"
       :events="arrayEvents"
       event-color="blue lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
+    <v-spacer></v-spacer>
     <v-write :date="picker"></v-write>
-  </v-row>
+  </v-card>
 </template>
 
 <script>
@@ -20,6 +21,7 @@
     data () {
       return {
         picker: new Date().toISOString().substr(0, 10),
+        fullWidth: true,
         arrayEvents: null,
         pickerDate: null,
         userid: ''
@@ -63,7 +65,5 @@
   }
 </script>
 <style lang="less" scoped>
-  .editor{
-    z-index: -1;
-  }
+
 </style>

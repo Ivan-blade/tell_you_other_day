@@ -47,4 +47,7 @@
             (#{rid},#{id})
         </foreach>
     </insert>
+    <update id="updateUserMatch">
+        UPDATE user set matchId = #{otherId},isMatch = 1 WHERE id = #{userId}
+    </update>
 </mapper>

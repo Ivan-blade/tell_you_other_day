@@ -93,29 +93,6 @@
           path: '/register'
         })
       }
-      // goToReg () {
-      //   postRequest('/reg',{
-      //     username: this.username,
-      //     password: this.password,
-      //     email: this.email
-      //   }).then(resp=> {
-      //     if (resp.status == 200) {
-      //       //成功
-      //       var json = resp.data;
-      //       if (json.status == 'success') {
-      //         console.log('注册成功', '成功!')
-      //       } else {
-      //         console.log('注册失败!', '失败!')
-      //       }
-      //     } else {
-      //       //失败
-      //       console.log('注册失败!', '失败!')
-      //     }
-      //   }, resp=> {
-      //     console.log('找不到服务器⊙﹏⊙∥!', '失败!')
-      //     console.log(resp)
-      //   })
-      // }
     }
   }
 </script>

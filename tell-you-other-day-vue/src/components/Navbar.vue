@@ -49,7 +49,8 @@
             { icon: 'settings', text: 'Settings', route: '/settings' },
             { icon: 'assistant_photo', text: 'About', route: '/about' },
             { icon: 'perm_identity', text: 'Login', route: '/login' },
-            { icon: 'view_list', text: 'ViewAll', route: '/viewall' }
+            { icon: 'view_list', text: 'ViewAll', route: '/viewall' },
+            { icon: 'bolt', text: 'Match', route: '/match' }
         ]
       }
     }

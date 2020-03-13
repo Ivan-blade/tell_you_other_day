@@ -17,6 +17,8 @@ public interface UserMapper {
 
     int updateUserEmail(@Param("email") String email, @Param("id") Long id);
 
+    int updateUserMatch(@Param("userId") Long userId,@Param("otherId") Long otherId);
+
     List<Role> getAllRole();
 
     int updateUserEnabled(@Param("enabled") Boolean enabled, @Param("uid") Long uid);

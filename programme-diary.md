@@ -55,8 +55,8 @@
                 `email` varchar(64) DEFAULT NULL,
                 `enabled` tinyint(1) NOT NULL DEFAULT 1,
                 `regTime` datetime DEFAULT NOW(),
-                `isMarch` tinyint(1) NOT NULL DEFAULT 0,
-                `marchId` bigint(32) DEFAULT NNULL,
+                `isMatch` tinyint(1) NOT NULL DEFAULT 0,
+                `matchId` bigint(32) DEFAULT NNULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -84,16 +84,6 @@
                 
                 alter table roles_user add index(rid);
                 alter table roles_user add index(uid);
-            ```
-        + category
-            ```
-                CREATE TABLE IF NOT EXISTS `category` (
-                `id` bigint(32) NOT NULL AUTO_INCREMENT,
-                `cateName` varchar(255) DEFAULT NULL,
-                `date` date DEFAULT NULL,
-                `uid` bigint(32) DEFAULT NULL,
-                PRIMARY KEY (`id`)
-                ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
         + article
             ```
@@ -202,13 +192,14 @@
             + 前端需要写一个匹配页面（。。。唉，虽然也就加个页面，一个表单一个按钮总感觉号麻烦），用户输入邮箱后向目标用户发送匹配申请，目标用户收到申请后点击确认双方数据表中otherid更改为对方uid，问题来了，匹配的具体实现？
             + 目前的考虑是新建一个专门的匹配数据表match，数据元素：id,userid,otherid,status
                 ```
-                    CREATE TABLE IF NOT EXISTS `article` (
+                    CREATE TABLE IF NOT EXISTS `match` (
                     `id` bigint(32) NOT NULL AUTO_INCREMENT,
-                    `userid` bigint(32) DEFAULT NULL,
-                    `useremail` varchar(64) DEFAULT NULL,
-                    `otherid` bigint(32) DEFAULT NULL,
-                    `otheremail` varchar(64) DEFAULT NULL,
+                    `userId` bigint(32) DEFAULT NULL,
+                    `userEmail` varchar(64) DEFAULT NULL,
+                    `otherId` bigint(32) DEFAULT NULL,
+                    `otherEmail` varchar(64) DEFAULT NULL,
                     `status` int(11) DEFAULT 0,
+                    `matchTime` datetime DEFAULT NULL,
                     PRIMARY KEY (`id`)
                     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
                 ```
@@ -438,12 +429,14 @@
         ```
             ALTER TABLE `article` ADD COLUMN `otherId` bigint(32) DEFAULT NULL;
             ALTER TABLE `article` ADD COLUMN `showTime` datetime DEFAULT NULL;
-            ALTER TABLE `user` ADD COLUMN `marchId` bigint(32) DEFAULT NULL;
-            ALTER TABLE `user` ADD COLUMN `isMarch` tinyint(1) DEFAULT 0;
-
+            ALTER TABLE `user` ADD COLUMN `matchId` bigint(32) DEFAULT NULL;
+            ALTER TABLE `user` ADD COLUMN `isMatch` int(2) DEFAULT 0;
+            ALTER TABLE `match` ADD COLUMN `matchTime` datetime DEFAULT NULL;
             由于粘贴脚本时忘了改名字，加错了数据库
             ALTER TABLE `article` DROP COLUMN `marchId`;
             ALTER TABLE `article` DROP COLUMN `isMarch`;
+            ALTER TABLE `user` DROP COLUMN `matchId`;
+            ALTER TABLE `user` DROP COLUMN `isMatch`;
         ```
     + 目前只写日记视图渲染，所以匹配用户先直接插入做测试，匹配功能可能明天再写，开始整理后端
     + 哦豁上数据库的课了
@@ -483,3 +476,12 @@
             哦豁。。。这是正解。。。被自己蠢哭了，跨语言也不能忘记比较用==啊。。。
         ```
     + 差不多该写匹配功能了，明天一天够了，然后文章功能部分修改一下估计也是一天，之后三天处理一下设置模块和基础信息部分的ui，到时候备案应该快了，到时候前端打包成app看能不能扔到一个平台上，后端部署到阿里云服务器，基本上算是完结了，更新后面再看，其他的技术栈不太能拖了，时日无多
+    + 突然想起来java好像是可以发邮件的，这样邮箱验证并不是很麻烦，验证码用一个插件搞定就好了，突然有个新点子，我干脆加一个新功能吧，将秘密定时发到对应邮箱？发件人就是我，不过内容是md格式就很诡异。。。可能发一个html文件会比较好，唉，还是有htmlContent比较好。。。先提上日程，今天还是按计划完成匹配功能，看一下之前的思路
+    + 早上一起启动控制台居然报错，虽然对于页面渲染没有影响，百度了一下，是由于开始没有数据，所以substr报错，用来一个v-if语句处理了
+
+#### 2020-3-13
++ 现在可以进行用户匹配了，但是匹配之后的数据渲染以及匹配之前的视图渲染需要修改
++ 目前的逻辑
+    + 请求方发起一个匹配会在match表中插入一个字段，默认状态为0，当被请求仿同意时，match表对应字段状态变为1，拒绝变为2
+    + 当被请求方同意时，我们将会修改user数据表中两个用户的otherId字段和isMatch字段，表示这个用户处于匹配状态
+    + 。。。哦豁就这个功能居然花了。。。唉，今天主要就是新建了match表，然后创建好对应的controller，service，mapper，然后写了几个函数，还有前端加了一点点东西。。。为什么做起来很麻烦，做完又感觉没做什么事。。。今天到这吧
