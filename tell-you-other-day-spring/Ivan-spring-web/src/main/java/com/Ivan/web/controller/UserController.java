@@ -22,6 +22,12 @@ public class UserController {
     @RequestMapping("/currentUserInfo")
     public User  currentUserInfo() { return Util.getCurrentUser();}
 
+    @RequestMapping(value = "/currentMatchInfo",method = RequestMethod.GET)
+    public User currentMatchInfo (Long id) {
+        User user = userService.getUserById(id);
+        return user;
+    }
+
     @RequestMapping("/currentUserName")
     public String currentUserName() {
         return Util.getCurrentUser().getUsername();
@@ -42,6 +48,9 @@ public class UserController {
 
     @RequestMapping("/currentMatch")
     public int currentMatch() { return  Util.getCurrentUser().getIsMatch();}
+
+    @RequestMapping("/currentMatchId")
+    public Long currentMatchId() { return  Util.getCurrentUser().getMatchId();}
 
     @RequestMapping("/isAdmin")
     public Boolean isAdmin() {

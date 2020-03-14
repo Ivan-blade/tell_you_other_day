@@ -16,7 +16,7 @@ public interface ArticleMapper {
 
     List<Article> getArticleByUs(@Param("uid") Long uid, @Param("state") Integer state);
 
-    List<Article> getArticleByUsOther(@Param("tempId") Long tempId, @Param("state") Integer state);
+    List<Article> getArticleByUsOther(@Param("uid") Long uid,@Param("tempId") Long tempId, @Param("state") Integer state);
 
     Article getArticleByDate(@Param("date") String date,@Param("uid") Long uid,@Param("state") Integer state);
 

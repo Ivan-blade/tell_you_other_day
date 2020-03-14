@@ -70,10 +70,18 @@
                     placeholder=" ">
                   </mavon-editor>
                 </div>
+                <div v-if="item.state == 2">
+                  <v-text-field 
+                  label="format: 2020-03-03 01:01:01" 
+                  v-model="showTime"
+                  class="mt-5"
+                  solo
+                  >
+                  </v-text-field>
+                </div>
               </div>
             </v-tab-item>
           </v-tabs-items>
-        
       </v-card>
     </v-dialog>
   </v-row>
@@ -91,7 +99,7 @@
         dialog: false,
         loader: null,
         loading: false,
-        tab: null,
+        tab: 'Diary',
         state: 1,
         decision: false,
         divideScreen: false,
@@ -104,7 +112,8 @@
           id: '-1',
           title: '',
           mdContent: ''
-        }
+        },
+        showTime: null
       }
     },
     watch: {
@@ -135,9 +144,9 @@
           id: _this.article.id,
           title: _this.article.title,
           mdContent: _this.article.mdContent,
-          htmlContent: _this.$refs.md.d_render,
           state: _this.state,
-          publishDate: _this.date
+          publishDate: _this.date,
+          showTime: _this.showTime
         }).then(resp=> {
           if (resp.status == 200 && resp.data.status == 'success') {
             _this.article.id = resp.data.msg;
@@ -153,7 +162,6 @@
         getRequest(`/article/${_this.date}/${_this.state}`).then(resp=> {
           if (resp.status == 200 && resp.data) {
           _this.article = resp.data;
-          // console.log(resp)
           } else {
             _this.article.id = -1
             _this.article.title = ''

@@ -183,8 +183,8 @@ export default {
         return this.state = state == 1 ? 2 : 1
       },
       changeUser () {
-        if(this.userinfo.marchId) {
-          return this.userid = this.userid == this.userinfo.id ? this.userinfo.marchId : this.userinfo.id
+        if(this.userinfo.matchId) {
+          return this.userid = this.userid == this.userinfo.id ? this.userinfo.matchId : this.userinfo.id
         } else {
           console.log("该用户未匹配")
         }

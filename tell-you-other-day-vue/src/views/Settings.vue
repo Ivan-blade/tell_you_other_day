@@ -1,7 +1,6 @@
 <template>
   <v-card
-    class="my-5 mx-auto"
-    max-width="344"
+    class="fill-height mx-auto"
     outlined
   >
     the field of settings

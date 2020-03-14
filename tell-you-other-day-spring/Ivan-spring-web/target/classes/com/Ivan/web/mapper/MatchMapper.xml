@@ -17,7 +17,7 @@
     <update id="updateMatch">
         UPDATE `match` set status = #{status}
          <if test="status == 1">
-             ,martchTime = current_timestamp 
+             ,martchTime = current_timestamp
          </if>
          WHERE id = #{id}
     </update>

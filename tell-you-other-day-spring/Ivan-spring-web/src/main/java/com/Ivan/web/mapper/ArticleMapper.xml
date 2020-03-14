@@ -5,7 +5,16 @@
 <mapper namespace="com.Ivan.web.mapper.ArticleMapper">
 
     <insert id="addNewArticle" parameterType="com.Ivan.web.bean.Article" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO article SET title=#{title},mdContent=#{mdContent},summary=#{summary},uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime}
+        INSERT INTO article
+        SET title=#{title},mdContent=#{mdContent},summary=#{summary},
+        uid=#{uid},publishDate=#{publishDate},state=#{state},editTime=#{editTime},
+        otherId=#{otherId}
+        <if test="state == 2 and showTime != null and showTime != 'null' and showTime != ''">
+            ,showTime = #{showTime}
+        </if>
+        <if test="state == 2 and (showTime == '' or showTime == null or showTime == 'null')">
+            ,showTime = DATE_ADD(CURRENT_TIMESTAMP ,INTERVAL  FLOOR(1+RAND() * 7) DAY)
+        </if>
     </insert>
 
     <update id="updateArticle" parameterType="com.Ivan.web.bean.Article">
@@ -20,10 +29,11 @@
 
     <select id="getArticleByUsOther" resultType="com.Ivan.web.bean.Article">
         SELECT * FROM article
-        WHERE otherId=#{tempId}
+        WHERE uid=#{uid}
         AND state=#{state}
         <if test="state == 2">
             AND current_timestamp > showTime
+            AND otherId = #{tempId}
         </if>
         ORDER BY publishDate DESC
     </select>

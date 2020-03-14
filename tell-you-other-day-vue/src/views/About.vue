@@ -1,22 +1,28 @@
 <template>
     <v-card
-    class="my-5 mx-auto"
-    max-width="344"
+    class="fill-height mx-auto"
     outlined
     >
       <v-card-title>
         关于产品出发点
       </v-card-title>
+      <v-spacer></v-spacer>
       <v-card-subtitle>
-        emmm？我总不能说我是傲娇吧？我跟你说，不存在！不可能！做梦！
+        emmm？你觉得我会说吗？？？多吃点花生米
       </v-card-subtitle>
       <v-card-text>
         <div>
-          产品功能除了日记以外，特别推出悄悄话功能，你可以在某一天对特定id发一句悄悄话，这个人会在你设置的日期那天收到这句话，
-          或者干脆不设置让系统决定哪一天将你想要说的话发送给对方
-          <br />
-          如果有什么点子可以联系我
-          <br />
+          <span>产品功能简述：</span><v-spacer></v-spacer>
+          <span>1.日记板块：点击日历中的日期再点击那只笔跳转记录页，记录页分为两部分，日记和悄悄话，日记将无条件对匹配双方呈现</span>
+          <v-spacer></v-spacer>
+          <span>2.悄悄话板块：同样点击日历的日期跳转记录页，这部分内容保存后除了自己无条件可视，匹配的对象满足一定条件才能看见</span>
+          <v-spacer></v-spacer>
+          <span>3.匹配板块：对应页面输入对方邮箱（对方需要以该邮箱注册才行）发起匹配请求，对方同意后双方匹配成功</span>
+          <v-spacer></v-spacer>
+          <span>4.匹配作用：匹配成功之后，用户记录的悄悄话将会与匹配对象进行绑定，如果之后更换了匹配用户，更换的用户是看不见上一次匹配期间的悄悄话的</span>
+          <v-spacer></v-spacer>
+          如果有什么点子可以联系我，虽然即使联系我用处可能也不是那么大
+          <v-spacer></v-spacer>
           QQ:1178594290
           <br />
           微信：L1178594290

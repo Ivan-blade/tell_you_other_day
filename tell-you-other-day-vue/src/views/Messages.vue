@@ -1,10 +1,11 @@
 <template>
   <v-card
-    class="my-5 mx-auto"
-    max-width="344"
+    class="mx-auto fill-height"
     outlined
   >
-    the field of Messages
+    <div>
+      the field of Messages
+    </div>
   </v-card>
 </template>
 

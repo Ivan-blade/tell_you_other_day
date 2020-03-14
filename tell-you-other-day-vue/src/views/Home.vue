@@ -8,8 +8,12 @@
       event-color="blue lighten-1"
       :picker-date.sync="picker"
     ></v-date-picker>
-    <v-spacer></v-spacer>
-    <v-write :date="picker"></v-write>
+    <v-card-actions>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-spacer></v-spacer>
+      <v-write :date="picker"></v-write>
+    </v-card-actions>
   </v-card>
 </template>
 

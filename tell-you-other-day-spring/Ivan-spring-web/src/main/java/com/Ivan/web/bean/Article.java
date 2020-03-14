@@ -13,7 +13,7 @@ public class Article {
     private Integer state;
     private Timestamp editTime;
     private Long otherId;
-    private Timestamp showTime;
+    private String showTime;
 
     public Long getOtherId() {
         return otherId;
@@ -23,11 +23,11 @@ public class Article {
         this.otherId = otherId;
     }
 
-    public Timestamp getShowTime() {
+    public String getShowTime() {
         return showTime;
     }
 
-    public void setShowTime(Timestamp showTime) {
+    public void setShowTime(String showTime) {
         this.showTime = showTime;
     }
 

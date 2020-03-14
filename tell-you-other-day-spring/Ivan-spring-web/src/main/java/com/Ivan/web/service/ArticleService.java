@@ -31,6 +31,7 @@ public class ArticleService {
             article.setEditTime(timestamp);
             //设置当前用户
             article.setUid(Util.getCurrentUser().getId());
+            article.setOtherId(Util.getCurrentUser().getMatchId());
             int i = articleMapper.addNewArticle(article);
             return i;
         } else {
@@ -53,8 +54,7 @@ public class ArticleService {
         if (uid == tempId) {
             articles = articleMapper.getArticleByUs(uid,state);
         } else if (uid != tempId) {
-
-            articles = articleMapper.getArticleByUsOther(tempId,state);
+            articles = articleMapper.getArticleByUsOther(uid,tempId,state);
         }
         return articles;
     }

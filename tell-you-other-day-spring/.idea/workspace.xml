@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892eeca4-99d1-4775-a439-cecd90534516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../programme-diary.md" beforeDir="false" afterPath="$PROJECT_DIR$/../programme-diary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tell-you-other-day-vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../tell-you-other-day-vue/src/views/Home.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,7 +25,7 @@
     <session id="1431146937">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.41" value="1" />
@@ -36,41 +34,42 @@
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.60" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="3635" />
+          <entry key="java" value="3832" />
           <entry key="properties" value="12" />
-          <entry key="xml" value="1463" />
+          <entry key="xml" value="1870" />
           <entry key="yml" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3635" />
+          <entry key="JAVA" value="3832" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="12" />
-          <entry key="SQL" value="32" />
-          <entry key="XML" value="1431" />
+          <entry key="SQL" value="44" />
+          <entry key="XML" value="1826" />
           <entry key="YAML" value="233" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="230" />
+          <entry key="java" value="240" />
           <entry key="properties" value="5" />
-          <entry key="xml" value="69" />
+          <entry key="xml" value="72" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="230" />
+          <entry key="JAVA" value="240" />
           <entry key="Properties" value="5" />
-          <entry key="XML" value="69" />
+          <entry key="XML" value="72" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -79,10 +78,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.java">
+        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+            <state relative-caret-position="187">
+              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,22 +89,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.xml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="77">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loadUserByUsername#0;class#UserService#0" />
+                <element signature="docComment;method#reg#0;class#UserService#0" />
+                <element signature="method#reg#0;class#UserService#0" />
+                <element signature="method#updateUserEmail#0;class#UserService#0" />
+                <element signature="method#updateUserRoles#0;class#UserService#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/MatchService.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="9">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -140,6 +154,7 @@
       <find>nick</find>
       <find>sdf</find>
       <find>march</find>
+      <find>matchId</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,19 +197,19 @@
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/RolesMapper.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/config/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/User.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Match.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/MatchController.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/MatchService.java" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.xml" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -253,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -355,6 +369,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +379,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584103326058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584166089847" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -421,17 +436,18 @@
       <workItem from="1583930036008" duration="1038000" />
       <workItem from="1583931133808" duration="5630000" />
       <workItem from="1583973325773" duration="15280000" />
-      <workItem from="1584059291419" duration="22045000" />
+      <workItem from="1584059291419" duration="22837000" />
+      <workItem from="1584146474755" duration="11317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117454000" />
+    <option name="totallyTimeSpent" value="129563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27405012" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27890056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,7 +457,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.64285713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4995958" visible="true" weight="0.872093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,23 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Match.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -692,96 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/LoginRegController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loadUserByUsername#0;class#UserService#0" />
-            <element signature="docComment;method#reg#0;class#UserService#0" />
-            <element signature="method#updateUserEmail#0;class#UserService#0" />
-            <element signature="method#updateUserRoles#0;class#UserService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="51" column="52" lean-forward="true" selection-start-line="51" selection-start-column="52" selection-end-line="51" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addNewArticle#0;class#ArticleService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,34 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="50" column="75" selection-start-line="50" selection-start-column="75" selection-end-line="50" selection-end-column="75" />
-          <folding>
-            <element signature="n#select#0;n#mapper#0;n#!!top" />
-            <element signature="n#update#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
-            <element signature="n#select#2;n#mapper#0;n#!!top" />
-            <element signature="n#update#1;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#1;n#mapper#0;n#!!top" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -842,9 +727,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/MatchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="837">
           <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -854,8 +749,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/MatchMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="268">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/bean/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/ArticleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadUserByUsername#0;class#UserService#0" />
+            <element signature="docComment;method#reg#0;class#UserService#0" />
+            <element signature="method#reg#0;class#UserService#0" />
+            <element signature="method#updateUserEmail#0;class#UserService#0" />
+            <element signature="method#updateUserRoles#0;class#UserService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ivan-spring-web/src/main/java/com/Ivan/web/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
