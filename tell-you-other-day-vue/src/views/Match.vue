@@ -89,6 +89,7 @@ export default {
       getRequest(`/currentMatchInfo/?id=${_this.matchId}`).then(resp => {
         if(resp.status == 200 && resp.data) {
           _this.otherInfo = resp.data
+          console.log(resp.data)
         } else {
           console.log("请求失败")
         }

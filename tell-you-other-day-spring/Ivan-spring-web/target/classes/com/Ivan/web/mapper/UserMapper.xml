@@ -26,6 +26,9 @@
         <result column="email" property="email"/>
         <result column="userface" property="userface"/>
         <result column="regTime" property="regTime"/>
+        <result column="isMatch" property="isMatch"/>
+        <result column="matchId" property="matchId"/>
+        <result column="gender" property="gender"/>
         <collection property="roles" ofType="com.Ivan.web.bean.Role">
             <id column="rid" property="id"/>
             <result column="rname" property="name"/>

@@ -60,7 +60,7 @@
         password: '',
         show: false,
         rules: [
-            value => !!value || 'Required.'
+          value => !!value || 'Required.'
         ]
       }
     },
