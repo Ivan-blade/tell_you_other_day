@@ -30,9 +30,13 @@ public class MatchService {
     }
 
     public int pullMatch (String email) {
+        int i = 0;
         Long userId = Util.getCurrentUser().getId();
         String userEmail = Util.getCurrentUser().getEmail();
-        int i = matchMapper.pullMatch(email,userId,userEmail);
+        if(matchMapper.confirmMatch(email) == 0 && matchMapper.confirmMatch(userEmail) == 0) {
+            i = matchMapper.pullMatch(email,userId,userEmail);
+            return i;
+        }
         return i;
     }
 

@@ -49,6 +49,7 @@
                 CREATE TABLE IF NOT EXISTS `user` (
                 `id` bigint(32) NOT NULL AUTO_INCREMENT,
                 `username` varchar(255) DEFAULT NULL,
+                `gender` varchar(10) DEFAULT "保密",
                 `password` varchar(255) DEFAULT NULL,
                 `userphone` bigint(32) DEFAULT NULL,
                 `userface` varchar(255) DEFAULT NULL,
@@ -430,6 +431,8 @@
             ALTER TABLE `article` ADD COLUMN `otherId` bigint(32) DEFAULT NULL;
             ALTER TABLE `article` ADD COLUMN `showTime` datetime DEFAULT NULL;
             ALTER TABLE `user` ADD COLUMN `matchId` bigint(32) DEFAULT NULL;
+            ALTER TABLE `user` DROP COLUMN `gender`;
+            ALTER TABLE `user` ADD COLUMN `gender` varchar(10) DEFAULT "保密";
             ALTER TABLE `user` ADD COLUMN `isMatch` int(2) DEFAULT 0;
             ALTER TABLE `match` ADD COLUMN `matchTime` datetime DEFAULT NULL;
             由于粘贴脚本时忘了改名字，加错了数据库
@@ -498,3 +501,15 @@
 + 哦豁。。。突然想起了性别没加，唉，日记这事还分什么男女啊，，，还是得分的吧。。。
 + 剩下的，解绑功能，还有性别字段，还有匹配也对方基本信息渲染，邮箱验证，好像还有什么来着。。。想起来再说
 + 匹配用户信息渲染完成，改了点ui一点点。。。vuetify里面绝对定位和相对定位能用吗？？？布局有点麻烦。。。
+
+#### 2020-3-15
++ 在做邮箱验证功能，使用的是QQ邮箱，现在的问题是验证码和用户绑定，总感觉越写路子越野了。。。理论上一个交给security过滤器来处理的。。。不过稍微有点繁琐。。。等等。。。直接写死吧。。。是不是太草率了。。。
++ 。。。后端写死发固定验证码是真蠢。。。不过也太方便了吧。。。前端直接参数过滤。。。我怎么能这样。。。
++ 解绑功能的话，不写解绑功能吧，待会修改一下逻辑，匹配之前进行参数检查，如果已经匹配则请求结束，虽然不能解绑有点产品缺陷的感觉，不过，我希望这个软件只为两个人存在，不应该存在第三个人，理论上到后期日记功能也不会经常用吧，如果他们在一起生活的话，如果最后分了，这个软件里的内容会成为专属于对方的历史，ok，就这么定了，性别字段。。。现在加上好吧
++ 组件库虽然封装的ui好看但是。。。在调整样式细节时总会出那么点问题，组件库自己封装的样式有时候也不一定生效
++ 性别字段添加好了，用的varchar（10），总感觉有点消耗性能
++ 修改一下匹配机制
++ 逻辑修改完成，当发起匹配时，数据库将会对已有邮箱进行查询，如果该邮箱存在且未匹配，请求才能进行
++ 到这里应该差不多了，突然想起了之前大一那时候，有个人发现了验证码绕过漏洞，验证码直接写在了前端。。。不就是这种情况吗。。。真的是。。。后面改吧，功能到这里基本上差不多了，需要完善的部分
++ 日记图片添加（话说前几天我买的服务器好像40G总量。。。能放多少图片。。。算了，该加还是得加的）
++ 前端各种提示信息--毕竟用户看不见控制台报错

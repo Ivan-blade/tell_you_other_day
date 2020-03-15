@@ -15,4 +15,6 @@ public interface MatchMapper {
     int pullMatch(@Param("email") String email,@Param("userId") Long userId,@Param("userEmail") String userEmail);
 
     int updateMatch(@Param("id") Long id,@Param("status") int status);
+
+    Long confirmMatch(String email);
 }

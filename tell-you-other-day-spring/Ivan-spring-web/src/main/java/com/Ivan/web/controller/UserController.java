@@ -28,6 +28,11 @@ public class UserController {
         return user;
     }
 
+    @RequestMapping("/currentGender")
+    public String currentGender() {
+        return Util.getCurrentUser().getGender();
+    }
+
     @RequestMapping("/currentUserName")
     public String currentUserName() {
         return Util.getCurrentUser().getUsername();

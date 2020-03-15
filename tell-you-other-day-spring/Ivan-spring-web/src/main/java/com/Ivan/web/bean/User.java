@@ -22,7 +22,15 @@ public class User implements UserDetails {
     private Long userphone;
     private int isMatch;
     private Long matchId;
+    private String gender;
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
 
     public int getIsMatch() {
         return isMatch;

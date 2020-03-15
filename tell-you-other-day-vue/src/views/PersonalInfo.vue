@@ -23,6 +23,11 @@
           </v-list-item>
           <v-list-item>
             <span>
+              性别：{{currentGender}}
+            </span>
+          </v-list-item>
+          <v-list-item>
+            <span>
               格言：{{currentUserface}}
             </span>
           </v-list-item>
@@ -41,6 +46,12 @@
         _this.currentUserName = msg.data;
       }, function (msg) {
         _this.currentUserName = '游客';
+        console.log(msg)
+      });
+      getRequest("/currentGender").then(function (msg) {
+        _this.currentGender = msg.data;
+      }, function (msg) {
+        _this.currentUserName = '保密';
         console.log(msg)
       });
       getRequest("/currentUserId").then(function (msg) {
@@ -68,6 +79,7 @@
         currentUserId: '',
         currentUserface: '',
         currentUserEmail: '',
+        currentGender: '保密'
       }
     }
   }

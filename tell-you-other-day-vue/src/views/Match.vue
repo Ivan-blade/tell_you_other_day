@@ -34,6 +34,11 @@
           </v-list-item>
           <v-list-item>
             <span>
+              性别：{{otherInfo.gender}}
+            </span>
+          </v-list-item>
+          <v-list-item>
+            <span>
               格言：{{otherInfo.userface}}
             </span>
           </v-list-item>
@@ -63,7 +68,7 @@ export default {
   },
   data () {
     return {
-      matchId: '',
+      matchId: 0,
       otherInfo: ''
     }
   },
@@ -75,8 +80,7 @@ export default {
             _this.matchId = resp.data
             _this.$nextTick(_this.getMatchInfo())
           } else {
-            console.log('查询失败') 
-            _this.matchId = 0
+            console.log('当前没有匹配用户') 
           }
       })
     },
