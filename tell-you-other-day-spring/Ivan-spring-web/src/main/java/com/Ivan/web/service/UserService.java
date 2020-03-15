@@ -50,6 +50,10 @@ public class UserService implements UserDetailsService {
         if (loadUserByUsername != null) {
             return 1;
         }
+        Long loadUserByMail = userMapper.loadUserByMail(user.getEmail());
+        if (loadUserByMail != null) {
+            return 1;
+        }
         //插入用户,插入之前先对密码进行加密
         user.setPassword(DigestUtils.md5DigestAsHex(user.getPassword().getBytes()));
         user.setEnabled(true);//用户可用

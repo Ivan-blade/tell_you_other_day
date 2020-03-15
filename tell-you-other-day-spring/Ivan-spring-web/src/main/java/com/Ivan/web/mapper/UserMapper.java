@@ -13,6 +13,8 @@ public interface UserMapper {
 
     User loadUserByUsername(@Param("username") String username);
 
+    Long loadUserByMail(@Param("email") String email);
+
     long reg(User user);
 
     int updateUserEmail(@Param("email") String email, @Param("id") Long id);

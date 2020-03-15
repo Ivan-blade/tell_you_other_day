@@ -9,6 +9,9 @@
     <insert id="reg" useGeneratedKeys="true" keyProperty="id">
         INSERT INTO user set username=#{username},password=#{password},email=#{email},userface=#{userface},gender=#{gender}
     </insert>
+    <select id="loadUserByMail" resultType="Long">
+        SELECT id FROM user where email = #{email}
+    </select>
     <update id="updateUserEmail">
         UPDATE user set email=#{email} WHERE id=#{id}
     </update>
