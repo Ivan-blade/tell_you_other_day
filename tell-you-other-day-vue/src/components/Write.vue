@@ -138,7 +138,7 @@
       },
       articleSave () {
         if (!(isNotNullORBlank(this.article.title, this.article.mdContent))) {
-          console.log({type: 'error', message: '数据不能为空!'});
+          this.infodata = '数据不能为空'
           return;
         }
         this.loader = 'loading'
