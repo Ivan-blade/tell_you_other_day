@@ -33,44 +33,44 @@
           </v-list-item>
         </v-list-item-group>
       </v-list>
+      <tip-info :tipinfo="infodata"></tip-info>
     </v-card>
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { getRequest } from '../utils/api'
   export default {
     name: 'PersonalInfo',
+    components: {
+      'tip-info': TipInfo
+    },
     mounted: function () {
-      var _this = this
-      getRequest("/currentUserName").then(function (msg) {
-        _this.currentUserName = msg.data;
-      }, function (msg) {
-        _this.currentUserName = '游客';
-        console.log(msg)
+      getRequest("/currentUserName").then(msg => {
+        this.currentUserName = msg.data;
+      }, msg => {
+        this.currentUserName = '游客'
+        this.infodata = '您还未登录'
       });
-      getRequest("/currentGender").then(function (msg) {
-        _this.currentGender = msg.data;
-      }, function (msg) {
-        _this.currentUserName = '保密';
-        console.log(msg)
+      getRequest("/currentGender").then(msg => {
+        this.currentGender = msg.data
+      }, msg => {
+        this.currentUserName = '保密'
       });
-      getRequest("/currentUserId").then(function (msg) {
-        _this.currentUserId = msg.data;
-      }, function (msg) {
-        _this.currentUserId = 'unknown';
-        console.log(msg)
+      getRequest("/currentUserId").then(msg => {
+        this.currentUserId = msg.data
+      }, msg => {
+        this.currentUserId = 'unknown'
       });
-       getRequest("/currentUserEmail").then(function (msg) {
-        _this.currentUserEmail = msg.data;
-      }, function (msg) {
-        _this.currentUserEmail = 'unknown';
-        console.log(msg)
+       getRequest("/currentUserEmail").then(msg => {
+        this.currentUserEmail = msg.data
+      }, msg => {
+        this.currentUserEmail = 'unknown'
       });
-       getRequest("/currentUserface").then(function (msg) {
-        _this.currentUserface = msg.data;
-      }, function (msg) {
-        _this.currentUserface = '这个人很懒...';
-        console.log(msg)
+       getRequest("/currentUserface").then(msg => {
+        this.currentUserface = msg.data
+      }, msg => {
+        this.currentUserface = '这个人很懒...'
       });
     },
     data(){
@@ -79,7 +79,8 @@
         currentUserId: '',
         currentUserface: '',
         currentUserEmail: '',
-        currentGender: '保密'
+        currentGender: '保密',
+        infodata: ''
       }
     }
   }

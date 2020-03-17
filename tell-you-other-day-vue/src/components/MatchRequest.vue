@@ -43,12 +43,14 @@
                 </div>
             </v-col>
         </v-row>
+        <tip-info :tipinfo="infodata"></tip-info>
       </v-card>
     </v-dialog>
   </v-row>
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { postRequest } from '../utils/api'
   export default {
     data () {
@@ -57,18 +59,27 @@
         rules: [
           value => !!value || 'Required.'
         ],
-        email: ''
+        email: '',
+        infodata: ''
       }
     },
     methods: {
       pullMatch () {
-        var _this = this
         postRequest("/match/pullMatch",{
-            email: _this.email
+            email: this.email
         }).then(resp => {
-            console.log("请求成功")
+          if (resp.data.status == 'success') {
+            this.infodata = resp.data.msg
+          } else {
+            this.infodata = `${resp.data.msg},该邮箱可能已经完成匹配`
+          }
+        },resp => {
+          this.infodata = '没有该邮箱的注册信息'
         })
       }
+    },
+    components: {
+      'tip-info': TipInfo
     }
   }
 </script>

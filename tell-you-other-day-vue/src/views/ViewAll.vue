@@ -1,5 +1,5 @@
 <template>
-  <v-container style="max-width: 600px;">
+  <v-container style="max-width: 600px">
     <v-timeline dense clipped>
       <v-timeline-item
         fill-dot
@@ -22,7 +22,6 @@
           </v-col>
         </v-row>
       </v-timeline-item>
-
       <v-timeline-item
         class="mb-4 text--white"
         color="blue"
@@ -136,10 +135,12 @@
         </v-row>
       </v-timeline-item>
     </v-timeline>
+    <tip-info :tipinfo="infodata"></tip-info>
   </v-container>
 </template>
 
 <script>
+import TipInfo from '../components/TipInfo'
 import ShowArticle from '../components/ShowArticle'
 import { getRequest } from '../utils/api'
 export default {
@@ -148,7 +149,8 @@ export default {
       articles: [],
       userid: '',
       state: 1,
-      userinfo: ''
+      userinfo: '',
+      infodata: ''
     }),
 
     watch: {
@@ -166,7 +168,8 @@ export default {
     },
     
     components: {
-      'show-article': ShowArticle
+      'show-article': ShowArticle,
+      'tip-info': TipInfo
     },
 
     methods: {
@@ -175,8 +178,10 @@ export default {
           if (resp.status == 200 && resp.data) {
             this.articles = resp.data
           } else {
-            console.log('查询失败') 
+            this.infodata = '查询失败或者数据为空！' 
           }
+        }, resp => {
+          this.infodata = '未查询到该用户信息'
         })
       },
       changeState (state) {
@@ -186,15 +191,20 @@ export default {
         if(this.userinfo.matchId) {
           return this.userid = this.userid == this.userinfo.id ? this.userinfo.matchId : this.userinfo.id
         } else {
-          console.log("该用户未匹配")
+          this.infodata = '您还未进行匹配！'
         }
       },
       getInfo () {
-        var _this = this
-        getRequest("/currentUserInfo").then(function (resp) {
-          _this.userinfo = resp.data
-          _this.userid = resp.data.id
-          _this.$nextTick(_this.getContent())
+        getRequest("/currentUserInfo").then(resp => {
+          if (resp.status == 200 && resp.data) {
+          this.userinfo = resp.data
+          this.userid = resp.data.id
+          this.$nextTick(this.getContent())
+          } else {
+            this.infodata = '未查询到数据记录'
+          }
+        }, resp => {
+          this.infodata = '未查询到该用户信息'
         })
       }
     },

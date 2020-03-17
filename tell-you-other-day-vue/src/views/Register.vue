@@ -50,6 +50,7 @@
             ></v-text-field>
         </v-col>
     </v-row>
+    <tip-info :tipinfo="infodata"></tip-info>
     <v-row align="center" class="sty-btn">
         <v-col class="text-center">
             <div>
@@ -89,6 +90,7 @@
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { postRequest } from '../utils/api'
   export default {
     name: 'Register',
@@ -101,10 +103,14 @@
         code: '',
         gender: '男',
         show: false,
+        infodata: '',
         rules: [
           value => !!value || 'Required.'
         ]
       }
+    },
+    components: {
+      'tip-info': TipInfo
     },
     methods: {
       goToLogin () {
@@ -125,30 +131,29 @@
               //成功
               var json = resp.data;
               if (json.status == 'success') {
-                console.log('注册成功', '成功!')
+                this.infodata = '注册成功'
                 this.$router.push({
                   path: '/login'
                 })
               } else {
-                console.log('注册失败!', '失败!')
+                this.infodata = '注册失败'
               }
             } else {
               //失败
-              console.log('注册失败!', '失败!')
+              this.infodata = '注册失败'
             }
           }, resp=> {
-            console.log('找不到服务器⊙﹏⊙∥!', '失败!')
-            console.log(resp)
+            this.infodata = '服务器未响应'
           })
         } else {
-          console.log("验证码错误")
+          this.infodata = '验证码错误'
         }
       },
       getCode () {
         postRequest('/email/sendMail',{
           receiver: this.email
         }).then(resp => {
-          console.log(resp)
+          this.infodata = `邮件已发送至${this.email},请及时查收`
         })
       }
     }

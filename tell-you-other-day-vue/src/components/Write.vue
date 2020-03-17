@@ -70,6 +70,7 @@
                     placeholder=" ">
                   </mavon-editor>
                 </div>
+                <tip-info :tipinfo="infodata"></tip-info>
                 <div v-if="item.state == 2">
                   <v-text-field 
                   label="format: 2020-03-03 01:01:01" 
@@ -88,6 +89,7 @@
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { mavonEditor } from 'mavon-editor'
   import 'mavon-editor/dist/css/index.css'
   import { postRequest } from '../utils/api'
@@ -104,6 +106,7 @@
         decision: false,
         divideScreen: false,
         editorMode: 'edit',
+        infodata: '',
         items: [
           { tab: 'Diary', state: 1 },
           { tab: 'Secret', state: 2},
@@ -138,40 +141,39 @@
           console.log({type: 'error', message: '数据不能为空!'});
           return;
         }
-        var _this = this
-        _this.loader = 'loading'
+        this.loader = 'loading'
         postRequest("/article/", {
-          id: _this.article.id,
-          title: _this.article.title,
-          mdContent: _this.article.mdContent,
-          state: _this.state,
-          publishDate: _this.date,
-          showTime: _this.showTime
+          id: this.article.id,
+          title: this.article.title,
+          mdContent: this.article.mdContent,
+          state: this.state,
+          publishDate: this.date,
+          showTime: this.showTime
         }).then(resp=> {
           if (resp.status == 200 && resp.data.status == 'success') {
-            _this.article.id = resp.data.msg;
-            console.log({type: 'success', message: '保存成功！'})
+            this.article.id = resp.data.msg;
+            this.infodata = '保存成功'
           }
         }, resp=> {
-          console.log({type: 'error', message: resp})
+          this.infodata = `保存失败，报错信息：${resp}`
         })
         
       },
       getArticle() {
-        var _this = this;
-        getRequest(`/article/${_this.date}/${_this.state}`).then(resp=> {
+        getRequest(`/article/${this.date}/${this.state}`).then(resp=> {
           if (resp.status == 200 && resp.data) {
-          _this.article = resp.data;
+          this.article = resp.data;
           } else {
-            _this.article.id = -1
-            _this.article.title = ''
-            _this.article.mdContent = '' 
+            this.article.id = -1
+            this.article.title = ''
+            this.article.mdContent = '' 
           }
         })
       }
     },
     components: {
-      'mavon-editor': mavonEditor
+      'mavon-editor': mavonEditor,
+      'tip-info': TipInfo
     },
     props: ['date']
   }

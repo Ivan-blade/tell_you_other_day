@@ -48,18 +48,21 @@
               </v-row>
           </v-list-item>
         </v-list>
+        <tip-info :tipinfo="infodata"></tip-info>
       </v-card>
     </v-dialog>
   </v-row>
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { getRequest, postRequest } from '../utils/api'
   export default {
     data () {
       return {
         dialog: false,
-        listInfo: ''
+        listInfo: '',
+        infodata: ''
       }
     },
     methods: {
@@ -78,7 +81,11 @@
         }).then(resp => {
           console.log(resp)
         })
+        _this.infodata = '操作成功'
       }
+    },
+    components: {
+      'tip-info': TipInfo
     },
     mounted() {
       this.getListInfo()

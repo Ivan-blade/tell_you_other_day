@@ -14,10 +14,12 @@
       <v-spacer></v-spacer>
       <v-write :date="picker"></v-write>
     </v-card-actions>
+    <tip-info :tipinfo="infodata"></tip-info>
   </v-card>
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { getRequest } from '../utils/api'
   import Write from '../components/Write'
   export default {
@@ -28,11 +30,13 @@
         fullWidth: true,
         arrayEvents: null,
         pickerDate: null,
-        userid: ''
+        userid: '',
+        infodata: ''
       }
     },
     components: {
-      'v-write': Write
+      'v-write': Write,
+      'tip-info': TipInfo
     },
     watch: {
       picker (val) {}
@@ -44,24 +48,21 @@
         })
       },
       getAllPublishDate () {
-        var _this = this
-        getRequest(`/article/allPublishDate/${_this.userid}`).then(resp => {
+        getRequest(`/article/allPublishDate/${this.userid}`).then(resp => {
           if (resp.status == 200 && resp.data) {
           let formatDate = resp.data.map(item => item.substr(0,10))
-          _this.arrayEvents = formatDate
+          this.arrayEvents = formatDate
           } else {
-            console.log('查询失败') 
+            this.TipInfo = '没有查询相关信息'
           }
         })
       },
       getInfo () {
-        var _this = this
-        getRequest("/currentUserId").then(function (resp) {
-          _this.userid = resp.data;
-          _this.$nextTick(_this.getAllPublishDate())
+        getRequest("/currentUserId").then(resp => {
+          this.userid = resp.data;
+          this.$nextTick(this.getAllPublishDate())
         })
       }
-      
     },
     mounted() {
       this.getInfo()

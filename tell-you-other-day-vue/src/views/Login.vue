@@ -47,10 +47,12 @@
                 </div>
             </v-col>
         </v-row>
+        <tip-info :tipinfo="infodata"></tip-info>
     </v-container>
 </template>
 
 <script>
+  import TipInfo from '../components/TipInfo'
   import { postRequest } from '../utils/api'
   export default {
     name: 'Login',
@@ -61,8 +63,12 @@
         show: false,
         rules: [
           value => !!value || 'Required.'
-        ]
+        ],
+        infodata: ''
       }
+    },
+    components: {
+      'tip-info': TipInfo
     },
     methods: {
       goToLogin () {
@@ -74,18 +80,16 @@
             //成功
             var json = resp.data
             if (json.status == 'success') {
-              console.log('登录成功','成功！')
+              this.infodata = '登录成功'
               this.$router.replace({path: '/personalInfo'})
             } else {
-              console.log('登录失败!', '失败!')
+              this.infodata = '登录失败'
             }
           } else {
-            //失败
-            console.log('登录失败!', '失败!')
+            this.infodata = '登录失败'
           }
         }, resp=> {
-          console.log('找不到服务器⊙﹏⊙∥!', '失败!')
-          console.log(resp)
+          this.infodata = '该用户名并未注册'
         })
       },
       goToReg () {

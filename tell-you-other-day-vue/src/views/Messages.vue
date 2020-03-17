@@ -4,7 +4,7 @@
     outlined
   >
     <div>
-      the field of Messages
+      this is the field of Messages
     </div>
   </v-card>
 </template>

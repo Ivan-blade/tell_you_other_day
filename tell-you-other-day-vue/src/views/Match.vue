@@ -45,6 +45,7 @@
         </v-list-item-group>
       </v-list>
       <v-divider></v-divider>
+      <tip-info :tipinfo="infodata"></tip-info>
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-spacer></v-spacer>
@@ -57,49 +58,47 @@
 </template>
 
 <script>
-import { getRequest } from '../utils/api'
-import MatchList from '../components/MatchList'
-import MatchRequest from '../components/MatchRequest'
-export default {
-  name: 'Match',
-  components: {
-    'match-list': MatchList,
-    'match-request': MatchRequest
-  },
-  data () {
-    return {
-      matchId: 0,
-      otherInfo: ''
-    }
-  },
-  methods: {
-    getMatchId () {
-      var _this = this
-      getRequest("/currentMatchId").then(resp => {
-        if (resp.status == 200 && resp.data) {
-            _this.matchId = resp.data
-            _this.$nextTick(_this.getMatchInfo())
-          } else {
-            console.log('当前没有匹配用户') 
-          }
-      })
+  import TipInfo from '../components/TipInfo'
+  import { getRequest } from '../utils/api'
+  import MatchList from '../components/MatchList'
+  import MatchRequest from '../components/MatchRequest'
+  export default {
+    name: 'Match',
+    components: {
+      'match-list': MatchList,
+      'match-request': MatchRequest,
+      'tip-info': TipInfo
     },
-    getMatchInfo () {
-      var _this = this
-      getRequest(`/currentMatchInfo/?id=${_this.matchId}`).then(resp => {
-        if(resp.status == 200 && resp.data) {
-          _this.otherInfo = resp.data
-          console.log(resp.data)
-        } else {
-          console.log("请求失败")
-        }
-      })
+    data () {
+      return {
+        matchId: 0,
+        otherInfo: '',
+        infodata: ''
+      }
+    },
+    methods: {
+      getMatchId () {
+        getRequest("/currentMatchId").then(resp => {
+          if (resp.status == 200 && resp.data) {
+              this.matchId = resp.data
+              this.$nextTick(this.getMatchInfo())
+            } else {
+              this.infodata = '当前没有匹配用户'
+            }
+        })
+      },
+      getMatchInfo () {
+        getRequest(`/currentMatchInfo/?id=${this.matchId}`).then(resp => {
+          if(resp.status == 200 && resp.data) {
+            this.otherInfo = resp.data
+          }
+        })
+      }
+    },
+    mounted() {
+      this.getMatchId()
     }
-  },
-  mounted() {
-    this.getMatchId()
-  },
-}
+  }
 </script>
 
 <style>
