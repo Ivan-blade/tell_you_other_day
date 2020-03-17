@@ -94,7 +94,7 @@
   import 'mavon-editor/dist/css/index.css'
   import { postRequest } from '../utils/api'
   import { getRequest } from '../utils/api'
-  import {isNotNullORBlank} from '../utils/utils'
+  import { isNotNullORBlank } from '../utils/utils'
   export default {
     data () {
       return {

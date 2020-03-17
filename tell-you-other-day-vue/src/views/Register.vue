@@ -29,7 +29,7 @@
             </v-radio-group>
             <v-text-field
             v-model="userface"
-            label="userface" 
+            label="个人签名" 
             hide-details="auto"
             :rules="rules"
             class="mb-2"
@@ -92,6 +92,7 @@
 <script>
   import TipInfo from '../components/TipInfo'
   import { postRequest } from '../utils/api'
+  import { isNotNullORBlank } from '../utils/utils'
   export default {
     name: 'Register',
     data() {
@@ -120,6 +121,10 @@
       },
       Register () {
         if(this.code == "3273") {
+          if (!(isNotNullORBlank(this.username,this.password,this.email,this.userface))) {
+            this.infodata = '数据不能为空'
+            return;
+          }
           postRequest('/reg',{
             username: this.username,
             password: this.password,
