@@ -1,8 +1,8 @@
 # tell_you_other_day
 + 目前项目还处于开发期，依赖都在仓库中体积较大可能下载不便，增加了最新进度的demo演示视频(视频下载可能比较慢，于是下面是gif，当然。。。可能也比较慢)
 + 基本上差不多了
-    + <img src="../gifs/display(1).gif" />
-    + <img src="../gifs/display(2).gif" />
+    + <img src="./gifs/display_1.gif" />
+    + <img src="./gifs/display_2.gif" />
 + 功能板块
     + 日记
     + 秘密（可以向特定的用户id展示秘密，该内容将会根据用户设置时间显示给对方，如果不设置时间将会在两周内随机展示）
