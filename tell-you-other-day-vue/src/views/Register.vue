@@ -1,15 +1,13 @@
 <template>
   <v-container class="px-10">
     <v-row align="center">
-        <v-col
-        class="my-2"
-        >
+        <v-col>
             <v-text-field
             v-model="username"
             label="username"
             :rules="rules" 
             hide-details="auto"
-            class="my-5"
+            class="mt-2"
             ></v-text-field>
             <v-text-field
             v-model="password"
@@ -19,7 +17,7 @@
             @click:append="show = !show"
             :rules="rules" 
             hide-details="auto"
-            class="my-10"
+            class="my-7"
             ></v-text-field>
             <v-radio-group v-model="gender" :mandatory="false" row>
               <span>您的性别：</span>
@@ -46,7 +44,7 @@
             label="验证码"
             :rules="rules" 
             hide-details="auto"
-            class="my-5"
+            class="mt-5"
             ></v-text-field>
         </v-col>
     </v-row>
@@ -158,7 +156,13 @@
         postRequest('/email/sendMail',{
           receiver: this.email
         }).then(resp => {
-          this.infodata = `邮件已发送至${this.email},请及时查收`
+          if (resp.data == 'success') {
+            this.infodata = `验证码已发送至${this.email}`
+          } else {
+            this.infodata = '验证码发送失败请验证邮箱！'
+          }
+        },resp => {
+          this.infodata = '该邮件地址不存在！请重新输入！'
         })
       }
     }
