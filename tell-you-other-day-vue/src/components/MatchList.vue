@@ -78,8 +78,6 @@
           id: item.id,
           userId: item.otherId,
           otherId: item.userId
-        }).then(resp => {
-          console.log(resp)
         })
         _this.infodata = '操作成功'
       }

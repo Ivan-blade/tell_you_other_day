@@ -57,7 +57,7 @@
                 `enabled` tinyint(1) NOT NULL DEFAULT 1,
                 `regTime` datetime DEFAULT NOW(),
                 `isMatch` tinyint(1) NOT NULL DEFAULT 0,
-                `matchId` bigint(32) DEFAULT NNULL,
+                `matchId` bigint(32) DEFAULT NULL,
                 PRIMARY KEY (`id`)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
             ```
@@ -525,3 +525,7 @@
 + 做了部分提示处理，还不是特别全面，对所有var _this = this进行了处理，在es6中箭头函数的this指针指向全局，所以不需要借用_this将this引入函数体内部
 + 下面是对axios请求报错的提示处理
 + 差不多了，到这里大体上已经结束了，下面就是webapp部署了，时间已经来到了三月中旬，我的时间也不多了
+
+#### 2020-3-20
++ 备案是真快，我以为要等很久来着，下面开始打包项目了，前端通过hbuilder打包成app扔到应用商店，后端打包扔到服务器
++ linux安装mysql消耗了点时间，后端需要调整一下，因为数据库更新了，版本不能保持一致，依赖需要修改，先配置好数据表吧
