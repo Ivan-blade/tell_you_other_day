@@ -47,28 +47,49 @@
     },
     mounted: function () {
       getRequest("/currentUserName").then(msg => {
-        this.currentUserName = msg.data;
+        if(msg.data.status == 'error') {
+          this.currentUserName = '游客'
+          this.infodata = '您还未登录'
+        } else {
+          this.currentUserName = msg.data
+        }
       }, msg => {
         this.currentUserName = '游客'
         this.infodata = '您还未登录'
       });
       getRequest("/currentGender").then(msg => {
-        this.currentGender = msg.data
+        if(msg.data.status == 'error') {
+          this.currentGender = '保密'
+        } else {
+          this.currentGender = msg.data
+        }
       }, msg => {
-        this.currentUserName = '保密'
+        this.currentGender = '保密'
       });
       getRequest("/currentUserId").then(msg => {
-        this.currentUserId = msg.data
+        if(msg.data.status == 'error') {
+          this.currentUserId = 'unknown'
+        } else {
+          this.currentUserId = msg.data
+        }
       }, msg => {
         this.currentUserId = 'unknown'
       });
        getRequest("/currentUserEmail").then(msg => {
-        this.currentUserEmail = msg.data
+         if(msg.data.status == 'error') {
+          this.currentUserEmail = 'unknown'
+        } else {
+          this.currentUserEmail = msg.data
+        }
       }, msg => {
         this.currentUserEmail = 'unknown'
       });
        getRequest("/currentUserface").then(msg => {
-        this.currentUserface = msg.data
+         if(msg.data.status == 'error') {
+          this.currentUserface = '这个人很懒...'
+        } else {
+          this.currentUserface = msg.data
+        }
       }, msg => {
         this.currentUserface = '这个人很懒...'
       });

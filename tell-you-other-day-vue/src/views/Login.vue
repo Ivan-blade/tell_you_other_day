@@ -76,12 +76,12 @@
           username: this.username,
           password: this.password
         }).then(resp=> {
+          console.log(resp)
           if (resp.status == 200) {
-            //成功
             var json = resp.data
             if (json.status == 'success') {
               this.infodata = '登录成功'
-              this.$router.replace({path: '/personalInfo'})
+              this.$router.push({path: '/personalInfo'})
             } else {
               this.infodata = '登录失败'
             }

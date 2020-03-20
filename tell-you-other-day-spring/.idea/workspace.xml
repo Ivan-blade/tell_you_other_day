@@ -2,47 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="892eeca4-99d1-4775-a439-cecd90534516" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../programme-diary.md" beforeDir="false" afterPath="$PROJECT_DIR$/../programme-diary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ivan-spring-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/WebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/Email.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/Match.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/RespBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/bean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/config/AuthenticationAccessDeniedHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/config/WebSecurityConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/config/WebSecurityConfig$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/config/WebSecurityConfig$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/ArticleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/LoginRegController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/MatchController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/SendQQMailController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/admin/AdminController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/controller/admin/UserManaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/ArticleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/ArticleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/MatchMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/MatchMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/RolesMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/RolesMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/service/ArticleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/service/MatchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/service/SendQQMailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/utils/SendQQMailUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/com/Ivan/web/utils/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ivan-spring-web/target/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tell-you-other-day-vue/src/components/MatchList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../tell-you-other-day-vue/src/components/MatchList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tell-you-other-day-vue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tell-you-other-day-vue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tell-you-other-day-vue/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../tell-you-other-day-vue/src/utils/api.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +20,7 @@
     <session id="1431146937">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.36" value="1" />
@@ -406,7 +367,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584696163279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584704013041" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -469,12 +430,12 @@
       <workItem from="1584343292795" duration="670000" />
       <workItem from="1584407577386" duration="1668000" />
       <workItem from="1584420791280" duration="1712000" />
-      <workItem from="1584667096503" duration="8320000" />
+      <workItem from="1584667096503" duration="9553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166021000" />
+    <option name="totallyTimeSpent" value="167254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
