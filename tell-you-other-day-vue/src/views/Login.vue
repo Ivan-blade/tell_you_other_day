@@ -53,7 +53,8 @@
 
 <script>
   import TipInfo from '../components/TipInfo'
-  import { postRequest } from '../utils/api'
+  import { postRequest,getRequest } from '../utils/api'
+  import { isNotNullORBlank } from '../utils/utils'
   export default {
     name: 'Login',
     data() {
@@ -76,7 +77,6 @@
           username: this.username,
           password: this.password
         }).then(resp=> {
-          console.log(resp)
           if (resp.status == 200) {
             var json = resp.data
             if (json.status == 'success') {
@@ -89,7 +89,7 @@
             this.infodata = '登录失败'
           }
         }, resp=> {
-          this.infodata = '该用户名并未注册'
+          this.infodata = '服务器未响应'
         })
       },
       goToReg () {
@@ -97,6 +97,13 @@
           path: '/register'
         })
       }
+    },
+    mounted () {
+      getRequest("/currentUserName").then(msg => {
+        if(msg.status == '200' && isNotNullORBlank(msg.data)) {
+          this.$router.push({ path: '/home'})
+        }
+      })
     }
   }
 </script>

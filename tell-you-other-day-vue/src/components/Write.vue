@@ -52,7 +52,7 @@
               v-for="item in items"
               :key="item.tab"
             >
-              <div class="mx-4 mr-10">
+              <div class="mx-4">
                 <v-text-field 
                 label="Title" 
                 v-model="article.title"
@@ -180,10 +180,6 @@
 </script>
 
 <style>
-#editor {
-    margin: auto;
-    width: 100%;
-}
 .custom-loader {
   animation: loader 1s infinite;
   display: flex;

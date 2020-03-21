@@ -53,8 +53,8 @@
         <v-col class="text-center">
             <div>
                 <v-btn 
-                color="blue lighten-1 white--text" 
-                depressed
+                text 
+                color="blue lighten-1"
                 large
                 tile
                 @click="goToLogin"
@@ -64,8 +64,8 @@
         <v-col class="text-center">
             <div>
                 <v-btn
-                text 
-                color="blue lighten-1" 
+                color="blue lighten-1 white--text" 
+                depressed
                 large
                 tile
                 @click="Register"
