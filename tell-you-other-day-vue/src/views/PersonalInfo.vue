@@ -76,7 +76,7 @@
         this.currentUserId = 'unknown'
       });
        getRequest("/currentUserEmail").then(msg => {
-         if(msg.status == 'error') {
+         if(msg.data.status == 'error') {
           this.currentUserEmail = 'unknown'
         } else if (msg.status == '200'){
           this.currentUserEmail = msg.data

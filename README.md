@@ -1,4 +1,6 @@
 # tell_you_other_day
++ 2020-3-22至此已经部署完成，后端已经打包扔到阿里云，前端通过dcloud打包成apk，可以直接下载体验(虽然需要优化的地方还有很多)
++ <a href="https://pan.baidu.com/s/1cfUvfcDlE7x1ZLqOqxM4eA">提取码wti0</a>
 + 增加了最新进度的demo演示视频(视频下载可能比较慢，于是下面是gif，当然。。。可能也比较慢)
 + 基本上差不多了
     + <img src="./gifs/display_1.gif" />
