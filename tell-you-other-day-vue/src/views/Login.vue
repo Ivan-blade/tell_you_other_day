@@ -99,8 +99,8 @@
       }
     },
     mounted () {
-      getRequest("/currentUserName").then(msg => {
-        if(msg.status == '200' && isNotNullORBlank(msg.data)) {
+      getRequest("/currentUserName").then(resp => {
+        if(resp.data.status != 'error' && isNotNullORBlank(resp.data)) {
           this.$router.push({ path: '/home'})
         }
       })

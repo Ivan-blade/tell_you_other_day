@@ -47,7 +47,7 @@
     },
     mounted: function () {
       getRequest("/currentUserName").then(msg => {
-        if(msg.status == 'error') {
+        if(msg.data.status == 'error' ) {
           this.currentUserName = '游客'
           this.infodata = '您还未登录'
         } else if (msg.status == '200'){
@@ -58,7 +58,7 @@
         this.infodata = '您还未登录'
       });
       getRequest("/currentGender").then(msg => {
-        if(msg.status == 'error') {
+        if(msg.data.status == 'error') {
           this.currentGender = '保密'
         } else if (msg.status == '200'){
           this.currentGender = msg.data
@@ -67,7 +67,7 @@
         this.currentGender = '保密'
       });
       getRequest("/currentUserId").then(msg => {
-        if(msg.status == 'error') {
+        if(msg.data.status == 'error') {
           this.currentUserId = 'unknown'
         } else if (msg.status == '200'){
           this.currentUserId = msg.data
@@ -85,7 +85,7 @@
         this.currentUserEmail = 'unknown'
       });
        getRequest("/currentUserface").then(msg => {
-         if(msg.status == 'error') {
+         if(msg.data.status == 'error') {
           this.currentUserface = '这个人很懒...'
         } else if (msg.status == '200'){
           this.currentUserface = msg.data

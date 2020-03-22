@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-// let base = '/api'
-let base = 'http://www.ivan-blade.cn:9090'
+let base = '/api'
+// let base = 'http://www.ivan-blade.cn:9090'
 export const postRequest = (url, params) => {
   return axios({
     method: 'post',
